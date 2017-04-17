@@ -4,10 +4,10 @@ TAG=default
 HOST_WORKDIR=$(PWD)
 CONTAINER_WORKDIR=/root/zero-deep-learning
 
-build:
+codker/build:
 	docker build --tag=$(REPOSITORY):$(TAG) .
 
-attach:
+docker/attach:
 	docker run -v $(HOST_WORKDIR):$(CONTAINER_WORKDIR) -it $(REPOSITORY):$(TAG)
 
 jupyter:
