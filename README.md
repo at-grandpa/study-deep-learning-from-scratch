@@ -1,2 +1,3 @@
 # zero-deep-learning
-ゼロから始める Deep Learning の勉強
+
+book: https://www.oreilly.co.jp/books/9784873117584/
