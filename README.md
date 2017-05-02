@@ -8,26 +8,28 @@ https://www.oreilly.co.jp/books/9784873117584/
 
 https://github.com/oreilly-japan/deep-learning-from-scratch
 
-# setup
+# Usage
+
+### setup
 
 ```
 $ make build
 $ make up
 ```
 
-# attach
+### attach
 
 ```
 $ make attach
 ```
 
-# execute command
+### execute command
 
 ```
 $ make exec CMD='python ch01/1.6.2-sin.py'
 ```
 
-# jupyter notebook
+### jupyter notebook
 
 ```
 $ make jupyter
