@@ -1,35 +1,30 @@
 # study-deep-learning-from-scratch
 
-### book
-
-https://www.oreilly.co.jp/books/9784873117584/
-
-### github
-
-https://github.com/oreilly-japan/deep-learning-from-scratch
+* [book](https://www.oreilly.co.jp/books/9784873117584/)
+* [github](https://github.com/oreilly-japan/deep-learning-from-scratch)
 
 ## Usage
 
-### setup
+### Setup
 
 ```
 $ make build
 $ make up
 ```
 
-### attach
+### Attach
 
 ```
 $ make attach
 ```
 
-### execute command
+### Execute python script
 
 ```
-$ make exec CMD='python ch01/1.6.2-sin.py'
+$ make python SRC=ch01/1.6.2-sin.py
 ```
 
-### jupyter notebook
+### Jupyter notebook
 
 ```
 $ make jupyter
