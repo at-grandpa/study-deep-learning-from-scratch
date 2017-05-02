@@ -22,8 +22,8 @@ rm:
 attach:
 	@$(DOCKER_EXEC) $(CONTAINER_NAME) /bin/bash
 
-exec:
-	@$(DOCKER_EXEC) $(CONTAINER_NAME) /bin/bash -c "$(CMD)"
+python:
+	@$(DOCKER_EXEC) $(CONTAINER_NAME) /bin/bash -c "python $(SRC)"
 
 jupyter:
 	@$(DOCKER_EXEC) $(CONTAINER_NAME) /bin/bash -c \
