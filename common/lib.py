@@ -1,6 +1,6 @@
 from subprocess import *
 
-import random, math, sys
+import random, math, sys, os
 
 import numpy as np
 import matplotlib as mpl
