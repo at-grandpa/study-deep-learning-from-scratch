@@ -1,17 +1,32 @@
-REPOSITORY=zero-deep-learning
-TAG=default
+DOCKER_COMPOSE := docker-compose -f ./docker-compose.yml
+DOCKER_EXEC := docker exec -it
+CONTAINER_NAME := study-deep-learning-from-scratch
 
-HOST_WORKDIR=$(PWD)
-CONTAINER_WORKDIR=/root/zero-deep-learning
+ps:
+	$(DOCKER_COMPOSE) ps
 
-codker/build:
-	docker build --tag=$(REPOSITORY):$(TAG) .
+build:
+	$(DOCKER_COMPOSE) build
 
-docker/attach:
-	docker run -v $(HOST_WORKDIR):$(CONTAINER_WORKDIR) -it $(REPOSITORY):$(TAG)
+up:
+	$(DOCKER_COMPOSE) up -d
+
+clean: stop rm
+
+stop:
+	$(DOCKER_COMPOSE) stop
+
+rm:
+	$(DOCKER_COMPOSE) rm -f
+
+attach:
+	@$(DOCKER_EXEC) $(CONTAINER_NAME) /bin/bash
+
+exec:
+	@$(DOCKER_EXEC) $(CONTAINER_NAME) /bin/bash -c "$(CMD)"
 
 jupyter:
-	docker run -i -t -p 8888:8888 continuumio/anaconda3 /bin/bash -c \
+	@$(DOCKER_EXEC) $(CONTAINER_NAME) /bin/bash -c \
 		" \
 		/opt/conda/bin/conda install jupyter -y --quiet && \
 		mkdir /opt/notebooks && \

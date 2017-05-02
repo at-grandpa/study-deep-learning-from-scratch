@@ -1,0 +1,10 @@
+version: '2'
+services:
+  app:
+    build: .
+    container_name: study-deep-learning-from-scratch
+    stdin_open: true
+    ports:
+      - 8888:8888
+    volumes:
+      - .:/root/study-deep-learning-from-scratch
