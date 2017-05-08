@@ -1,14 +1,9 @@
-from common import lib as l
-from matplotlib.image import imread
-
 def AND(x1, x2):
-    x = l.np.array([x1, x2])
-    w = l.np.array([0.5, 0.5])
-    b = -0.7
-    tmp = l.np.sum(w*x) + b
-    if tmp <= 0:
+    w1, w2, theta = 0.5, 0.5, 0.7
+    tmp = x1*w1 + x2*w2
+    if tmp <= theta:
         return 0
-    else:
+    elif tmp > theta:
         return 1
 
 print("(0, 0) => " + str(AND(0, 0)) )
