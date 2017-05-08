@@ -1,7 +1,7 @@
-from common import lib as l
+from lib import common as c
 from matplotlib.image import imread
 
-current_dir_path = l.os.path.dirname(__file__)
+current_dir_path = c.os.path.dirname(__file__)
 img = imread(current_dir_path + '/../dataset/lena.png')
-l.plt.imshow(img)
-l.plt_show_alt(l.plt)
+c.plt.imshow(img)
+c.plt_show_alt(c.plt)
