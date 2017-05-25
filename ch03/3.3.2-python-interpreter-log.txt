@@ -1,0 +1,64 @@
+$ maek attach                                                                                                                                                            [master]
+zsh: correct 'maek' to 'make' [nyae]? y
+root@6c05dbb3165b:~/study-deep-learning-from-scratch#
+root@6c05dbb3165b:~/study-deep-learning-from-scratch#
+root@6c05dbb3165b:~/study-deep-learning-from-scratch# python
+Python 3.6.0 |Anaconda 4.3.1 (64-bit)| (default, Dec 23 2016, 12:22:00)
+[GCC 4.4.7 20120313 (Red Hat 4.4.7-1)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import numpy as np
+>>> A = np.array([1,2,3,4])
+>>> print(A)
+[1 2 3 4]
+>>> np.ndim(A)
+1
+>>> A.shape
+(4,)
+>>> B=np.array([[1,2],[3,4],[4,5]])
+>>> print(B)
+[[1 2]
+ [3 4]
+ [4 5]]
+>>> np.ndim(B)
+2
+>>> B.shape
+(3, 2)
+>>> A=np.array([[1,2],[3,4]])
+>>> B=np.array([[5,6],[7,8]])
+>>> np.dot(A,B)
+array([[19, 22],
+       [43, 50]])
+>>> np.dot(B,A)
+array([[23, 34],
+       [31, 46]])
+>>> A=np.array([[1,2,3],[4,5,6]])
+>>> B=np.array([[1,2],[3,4],[5,6]])
+>>> np.dot(B,A)
+array([[ 9, 12, 15],
+       [19, 26, 33],
+       [29, 40, 51]])
+>>> np.dot(A,b)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'b' is not defined
+>>> np.dot(A,b)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'b' is not defined
+>>> np.dot(A,B)
+array([[22, 28],
+       [49, 64]])
+>>> C=np.array([[1,2],[3,4]])
+>>> np.dot(A,C)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: shapes (2,3) and (2,2) not aligned: 3 (dim 1) != 2 (dim 0)
+>>> A=np.array([[1,2],[3,4],[5,6]])
+>>> B=np.array([7,8])
+>>> np.dot(A,B)
+array([23, 53, 83])
+>>> np.dot(B,A)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: shapes (2,) and (3,2) not aligned: 2 (dim 0) != 3 (dim 0)
+>>>
