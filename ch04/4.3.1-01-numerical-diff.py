@@ -23,9 +23,23 @@ y = function_1(x)
 c.plt.xlabel("x")
 c.plt.ylabel("f(x)")
 
-tf = tangent_line(function_1, 5)
+
+# Point
+x_point = 15
+
+# Calculate
+tf = tangent_line(function_1, x_point)
 y2 = tf(x)
 
+# Range
+c.plt.xlim(0, 20)
+c.plt.ylim(-1, 6)
+
+# Dashed line
+c.plt.plot([0, x_point], [function_1(x_point), function_1(x_point)], '--o')
+c.plt.plot([x_point, x_point], [-1, function_1(x_point)], '--o')
+
+# Graph
 c.plt.plot(x, y)
 c.plt.plot(x, y2)
 c.plt_show_alt(c.plt)
