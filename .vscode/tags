@@ -1,0 +1,328 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+1.6.2-sin.py	../ch01/1.6.2-sin.py	1;"	kind:file	line:1
+1.6.3-lena.py	../ch01/1.6.3-lena.py	1;"	kind:file	line:1
+2.3.1-01.py	../ch02/2.3.1-01.py	1;"	kind:file	line:1
+2.3.3-and.py	../ch02/2.3.3-and.py	1;"	kind:file	line:1
+2.3.3-nand.py	../ch02/2.3.3-nand.py	1;"	kind:file	line:1
+2.3.3-or.py	../ch02/2.3.3-or.py	1;"	kind:file	line:1
+2.5.2-xor.py	../ch02/2.5.2-xor.py	1;"	kind:file	line:1
+3.2.2-step_function.py	../ch03/3.2.2-step_function.py	1;"	kind:file	line:1
+3.2.3-step_function_graph.py	../ch03/3.2.3-step_function_graph.py	1;"	kind:file	line:1
+3.2.4-sigmoid_graph.py	../ch03/3.2.4-sigmoid_graph.py	1;"	kind:file	line:1
+3.2.7-relu_graph.py	../ch03/3.2.7-relu_graph.py	1;"	kind:file	line:1
+3.4.2-01.py	../ch03/3.4.2-01.py	1;"	kind:file	line:1
+3.4.2-02.py	../ch03/3.4.2-02.py	1;"	kind:file	line:1
+3.5.3-softmax.py	../ch03/3.5.3-softmax.py	1;"	kind:file	line:1
+3.6.1-mnist.py	../ch03/3.6.1-mnist.py	1;"	kind:file	line:1
+3.6.1-mnist_show.py	../ch03/3.6.1-mnist_show.py	1;"	kind:file	line:1
+3.6.2-neuralnet_mnist.py	../ch03/3.6.2-neuralnet_mnist.py	1;"	kind:file	line:1
+3.6.3-01-sample.py	../ch03/3.6.3-01-sample.py	1;"	kind:file	line:1
+3.6.3-02-batch.py	../ch03/3.6.3-02-batch.py	1;"	kind:file	line:1
+4.2.3-01-mini-batch.py	../ch04/4.2.3-01-mini-batch.py	1;"	kind:file	line:1
+4.3.1-01-numerical-diff.py	../ch04/4.3.1-01-numerical-diff.py	1;"	kind:file	line:1
+4.3.3-01-partial-differential.py	../ch04/4.3.3-01-partial-differential.py	1;"	kind:file	line:1
+A1	../ch03/3.4.2-01.py	/^A1 = c.np.dot(X, W1) + B1$/;"	kind:variable	line:11
+A2	../ch03/3.4.2-01.py	/^A2 = c.np.dot(Z1, W2) + B2$/;"	kind:variable	line:22
+A3	../ch03/3.4.2-01.py	/^A3 = c.np.dot(Z2, W3) + B3$/;"	kind:variable	line:34
+AND	../ch01/lib/and_gate.py	/^def AND(x1, x2):$/;"	kind:function	line:3
+AND	../ch02/2.3.1-01.py	/^def AND(x1, x2):$/;"	kind:function	line:1
+AND	../ch02/lib/and_gate.py	/^def AND(x1, x2):$/;"	kind:function	line:3
+AND	../ch03/lib/and_gate.py	/^def AND(x1, x2):$/;"	kind:function	line:3
+AND	../ch04/lib/and_gate.py	/^def AND(x1, x2):$/;"	kind:function	line:3
+AND	../lib/and_gate.py	/^def AND(x1, x2):$/;"	kind:function	line:3
+Axes3D	../ch04/4.3.3-01-partial-differential.py	/^from mpl_toolkits.mplot3d import Axes3D$/;"	kind:namespace	line:1
+B1	../ch03/3.4.2-01.py	/^B1 = c.np.array([0.1, 0.2, 0.3])$/;"	kind:variable	line:6
+B2	../ch03/3.4.2-01.py	/^B2 = c.np.array([0.1, 0.2])$/;"	kind:variable	line:16
+B3	../ch03/3.4.2-01.py	/^B3 = c.np.array([0.1, 0.2])$/;"	kind:variable	line:32
+Image	../ch01/lib/common.py	/^from PIL import Image$/;"	kind:namespace	line:9
+Image	../ch02/lib/common.py	/^from PIL import Image$/;"	kind:namespace	line:9
+Image	../ch03/lib/common.py	/^from PIL import Image$/;"	kind:namespace	line:9
+Image	../ch04/lib/common.py	/^from PIL import Image$/;"	kind:namespace	line:9
+Image	../lib/common.py	/^from PIL import Image$/;"	kind:namespace	line:9
+NAND	../ch01/lib/nand_gate.py	/^def NAND(x1, x2):$/;"	kind:function	line:3
+NAND	../ch02/lib/nand_gate.py	/^def NAND(x1, x2):$/;"	kind:function	line:3
+NAND	../ch03/lib/nand_gate.py	/^def NAND(x1, x2):$/;"	kind:function	line:3
+NAND	../ch04/lib/nand_gate.py	/^def NAND(x1, x2):$/;"	kind:function	line:3
+NAND	../lib/nand_gate.py	/^def NAND(x1, x2):$/;"	kind:function	line:3
+OR	../ch01/lib/or_gate.py	/^def OR(x1, x2):$/;"	kind:function	line:3
+OR	../ch02/lib/or_gate.py	/^def OR(x1, x2):$/;"	kind:function	line:3
+OR	../ch03/lib/or_gate.py	/^def OR(x1, x2):$/;"	kind:function	line:3
+OR	../ch04/lib/or_gate.py	/^def OR(x1, x2):$/;"	kind:function	line:3
+OR	../lib/or_gate.py	/^def OR(x1, x2):$/;"	kind:function	line:3
+W1	../ch03/3.4.2-01.py	/^W1 = c.np.array([[0.1, 0.3, 0.5], [0.2, 0.4, 0.6]])$/;"	kind:variable	line:5
+W2	../ch03/3.4.2-01.py	/^W2 = c.np.array([[0.1, 0.4], [0.2, 0.5], [0.3, 0.6]])$/;"	kind:variable	line:15
+W3	../ch03/3.4.2-01.py	/^W3 = c.np.array([[0.1, 0.3], [0.2, 0.4]])$/;"	kind:variable	line:31
+X	../ch03/3.4.2-01.py	/^X = c.np.array([1.0, 0.5])$/;"	kind:variable	line:4
+XOR	../ch02/2.5.2-xor.py	/^def XOR(x1, x2):$/;"	kind:function	line:5
+Y	../ch03/3.4.2-01.py	/^Y = identity_function(A3)$/;"	kind:variable	line:35
+Z	../ch04/4.3.3-01-partial-differential.py	/^Z = function_2(c.np.array([X, Y]))$/;"	kind:variable	line:25
+Z1	../ch03/3.4.2-01.py	/^Z1 = sig.sigmoid(A1)$/;"	kind:variable	line:14
+Z2	../ch03/3.4.2-01.py	/^Z2 = sig.sigmoid(A2)$/;"	kind:variable	line:25
+__init__.py	../ch01/lib/__init__.py	1;"	kind:file	line:1
+__init__.py	../ch02/lib/__init__.py	1;"	kind:file	line:1
+__init__.py	../ch03/lib/__init__.py	1;"	kind:file	line:1
+__init__.py	../ch04/lib/__init__.py	1;"	kind:file	line:1
+__init__.py	../lib/__init__.py	1;"	kind:file	line:1
+a	../ch03/3.5.3-softmax.py	/^a = c.np.array([0.3, 2.9, 4.0])$/;"	kind:variable	line:4
+accuracy_count	../ch03/3.6.2-neuralnet_mnist.py	/^accuracy_count = 0$/;"	kind:variable	line:36
+accuracy_count	../ch03/3.6.3-02-batch.py	/^accuracy_count = 0$/;"	kind:variable	line:37
+and_gate	../ch01/lib/__init__.py	/^from . import and_gate$/;"	kind:namespace	line:2
+and_gate	../ch02/2.3.3-and.py	/^from lib import and_gate$/;"	kind:namespace	line:1
+and_gate	../ch02/2.5.2-xor.py	/^from lib import and_gate$/;"	kind:namespace	line:1
+and_gate	../ch02/lib/__init__.py	/^from . import and_gate$/;"	kind:namespace	line:2
+and_gate	../ch03/lib/__init__.py	/^from . import and_gate$/;"	kind:namespace	line:2
+and_gate	../ch04/lib/__init__.py	/^from . import and_gate$/;"	kind:namespace	line:2
+and_gate	../lib/__init__.py	/^from . import and_gate$/;"	kind:namespace	line:2
+and_gate.py	../ch01/lib/and_gate.py	1;"	kind:file	line:1
+and_gate.py	../ch02/lib/and_gate.py	1;"	kind:file	line:1
+and_gate.py	../ch03/lib/and_gate.py	1;"	kind:file	line:1
+and_gate.py	../ch04/lib/and_gate.py	1;"	kind:file	line:1
+and_gate.py	../lib/and_gate.py	1;"	kind:file	line:1
+ax	../ch04/4.3.3-01-partial-differential.py	/^ax = Axes3D(fig)$/;"	kind:variable	line:28
+batch_mask	../ch04/4.2.3-01-mini-batch.py	/^batch_mask = c.np.random.choice(train_size, batch_size)$/;"	kind:variable	line:13
+batch_size	../ch03/3.6.3-02-batch.py	/^batch_size = 100$/;"	kind:variable	line:36
+batch_size	../ch04/4.2.3-01-mini-batch.py	/^batch_size = 10$/;"	kind:variable	line:12
+c	../ch01/1.6.2-sin.py	/^from lib import common as c$/;"	kind:namespace	line:1
+c	../ch01/1.6.3-lena.py	/^from lib import common as c$/;"	kind:namespace	line:1
+c	../ch01/lib/and_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
+c	../ch01/lib/nand_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
+c	../ch01/lib/or_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
+c	../ch01/lib/sigmoid.py	/^from lib import common as c$/;"	kind:namespace	line:1
+c	../ch01/lib/softmax.py	/^from lib import common as c$/;"	kind:namespace	line:1
+c	../ch02/lib/and_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
+c	../ch02/lib/nand_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
+c	../ch02/lib/or_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
+c	../ch02/lib/sigmoid.py	/^from lib import common as c$/;"	kind:namespace	line:1
+c	../ch02/lib/softmax.py	/^from lib import common as c$/;"	kind:namespace	line:1
+c	../ch03/3.2.2-step_function.py	/^from lib import common as c$/;"	kind:namespace	line:1
+c	../ch03/3.2.3-step_function_graph.py	/^from lib import common as c$/;"	kind:namespace	line:1
+c	../ch03/3.2.4-sigmoid_graph.py	/^from lib import common as c$/;"	kind:namespace	line:1
+c	../ch03/3.2.7-relu_graph.py	/^from lib import common as c$/;"	kind:namespace	line:1
+c	../ch03/3.4.2-01.py	/^from lib import common as c$/;"	kind:namespace	line:1
+c	../ch03/3.4.2-02.py	/^from lib import common as c$/;"	kind:namespace	line:1
+c	../ch03/3.5.3-softmax.py	/^from lib import common as c$/;"	kind:namespace	line:1
+c	../ch03/3.6.1-mnist_show.py	/^from lib import common as c$/;"	kind:namespace	line:5
+c	../ch03/3.6.2-neuralnet_mnist.py	/^from lib import common as c$/;"	kind:namespace	line:5
+c	../ch03/3.6.3-01-sample.py	/^from lib import common as c$/;"	kind:namespace	line:5
+c	../ch03/3.6.3-02-batch.py	/^from lib import common as c$/;"	kind:namespace	line:5
+c	../ch03/lib/and_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
+c	../ch03/lib/nand_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
+c	../ch03/lib/or_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
+c	../ch03/lib/sigmoid.py	/^from lib import common as c$/;"	kind:namespace	line:1
+c	../ch03/lib/softmax.py	/^from lib import common as c$/;"	kind:namespace	line:1
+c	../ch04/4.2.3-01-mini-batch.py	/^from lib import common as c$/;"	kind:namespace	line:5
+c	../ch04/4.3.1-01-numerical-diff.py	/^from lib import common as c$/;"	kind:namespace	line:5
+c	../ch04/4.3.3-01-partial-differential.py	/^from lib import common as c$/;"	kind:namespace	line:7
+c	../ch04/lib/and_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
+c	../ch04/lib/nand_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
+c	../ch04/lib/or_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
+c	../ch04/lib/sigmoid.py	/^from lib import common as c$/;"	kind:namespace	line:1
+c	../ch04/lib/softmax.py	/^from lib import common as c$/;"	kind:namespace	line:1
+c	../lib/and_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
+c	../lib/nand_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
+c	../lib/or_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
+c	../lib/sigmoid.py	/^from lib import common as c$/;"	kind:namespace	line:1
+c	../lib/softmax.py	/^from lib import common as c$/;"	kind:namespace	line:1
+common	../ch01/lib/__init__.py	/^from . import common$/;"	kind:namespace	line:1
+common	../ch02/lib/__init__.py	/^from . import common$/;"	kind:namespace	line:1
+common	../ch03/lib/__init__.py	/^from . import common$/;"	kind:namespace	line:1
+common	../ch04/lib/__init__.py	/^from . import common$/;"	kind:namespace	line:1
+common	../lib/__init__.py	/^from . import common$/;"	kind:namespace	line:1
+common.py	../ch01/lib/common.py	1;"	kind:file	line:1
+common.py	../ch02/lib/common.py	1;"	kind:file	line:1
+common.py	../ch03/lib/common.py	1;"	kind:file	line:1
+common.py	../ch04/lib/common.py	1;"	kind:file	line:1
+common.py	../lib/common.py	1;"	kind:file	line:1
+cross_entropy_error	../ch04/4.2.3-01-mini-batch.py	/^def cross_entropy_error(y, t) :$/;"	kind:function	line:17
+current_dir_path	../ch01/1.6.3-lena.py	/^current_dir_path = c.os.path.dirname(__file__)$/;"	kind:variable	line:4
+fig	../ch04/4.3.3-01-partial-differential.py	/^fig = c.plt.figure()$/;"	kind:variable	line:27
+forward	../ch03/3.4.2-02.py	/^def forward(network, x):$/;"	kind:function	line:19
+function_1	../ch04/4.3.1-01-numerical-diff.py	/^def function_1(x) :$/;"	kind:function	line:11
+function_2	../ch04/4.3.3-01-partial-differential.py	/^def function_2(x) :$/;"	kind:function	line:13
+get_data	../ch03/3.6.2-neuralnet_mnist.py	/^def get_data():$/;"	kind:function	line:10
+get_data	../ch03/3.6.3-01-sample.py	/^def get_data():$/;"	kind:function	line:10
+get_data	../ch03/3.6.3-02-batch.py	/^def get_data():$/;"	kind:function	line:10
+identity_function	../ch03/3.4.2-01.py	/^def identity_function(x):$/;"	kind:function	line:28
+identity_function	../ch03/3.4.2-02.py	/^def identity_function(x):$/;"	kind:function	line:4
+image_show_alt	../ch01/lib/common.py	/^def image_show_alt(img):$/;"	kind:function	line:16
+image_show_alt	../ch02/lib/common.py	/^def image_show_alt(img):$/;"	kind:function	line:16
+image_show_alt	../ch03/lib/common.py	/^def image_show_alt(img):$/;"	kind:function	line:16
+image_show_alt	../ch04/lib/common.py	/^def image_show_alt(img):$/;"	kind:function	line:16
+image_show_alt	../lib/common.py	/^def image_show_alt(img):$/;"	kind:function	line:16
+img	../ch01/1.6.3-lena.py	/^img = imread(current_dir_path + '\/..\/dataset\/lena.png')$/;"	kind:variable	line:5
+img	../ch03/3.6.1-mnist_show.py	/^img = img.reshape(28, 28)$/;"	kind:variable	line:16
+img	../ch03/3.6.1-mnist_show.py	/^img = x_train[0]$/;"	kind:variable	line:10
+imread	../ch01/1.6.3-lena.py	/^from matplotlib.image import imread$/;"	kind:namespace	line:2
+init_network	../ch03/3.4.2-02.py	/^def init_network():$/;"	kind:function	line:7
+init_network	../ch03/3.6.2-neuralnet_mnist.py	/^def init_network():$/;"	kind:function	line:15
+init_network	../ch03/3.6.3-01-sample.py	/^def init_network():$/;"	kind:function	line:15
+init_network	../ch03/3.6.3-02-batch.py	/^def init_network():$/;"	kind:function	line:15
+label	../ch03/3.6.1-mnist_show.py	/^label = t_train[0]$/;"	kind:variable	line:11
+load_mnist	../ch03/3.6.1-mnist.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:4
+load_mnist	../ch03/3.6.1-mnist_show.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:4
+load_mnist	../ch03/3.6.2-neuralnet_mnist.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:4
+load_mnist	../ch03/3.6.3-01-sample.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:4
+load_mnist	../ch03/3.6.3-02-batch.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:4
+load_mnist	../ch04/4.2.3-01-mini-batch.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:4
+load_mnist	../ch04/4.3.1-01-numerical-diff.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:4
+load_mnist	../ch04/4.3.3-01-partial-differential.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:6
+math	../ch01/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+math	../ch02/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+math	../ch03/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+math	../ch04/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+math	../lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+mpl	../ch01/lib/common.py	/^import matplotlib as mpl$/;"	kind:namespace	line:6
+mpl	../ch02/lib/common.py	/^import matplotlib as mpl$/;"	kind:namespace	line:6
+mpl	../ch03/lib/common.py	/^import matplotlib as mpl$/;"	kind:namespace	line:6
+mpl	../ch04/lib/common.py	/^import matplotlib as mpl$/;"	kind:namespace	line:6
+mpl	../lib/common.py	/^import matplotlib as mpl$/;"	kind:namespace	line:6
+nand_gate	../ch01/lib/__init__.py	/^from . import nand_gate$/;"	kind:namespace	line:4
+nand_gate	../ch02/2.3.3-nand.py	/^from lib import nand_gate$/;"	kind:namespace	line:1
+nand_gate	../ch02/2.5.2-xor.py	/^from lib import nand_gate$/;"	kind:namespace	line:3
+nand_gate	../ch02/lib/__init__.py	/^from . import nand_gate$/;"	kind:namespace	line:4
+nand_gate	../ch03/lib/__init__.py	/^from . import nand_gate$/;"	kind:namespace	line:4
+nand_gate	../ch04/lib/__init__.py	/^from . import nand_gate$/;"	kind:namespace	line:4
+nand_gate	../lib/__init__.py	/^from . import nand_gate$/;"	kind:namespace	line:4
+nand_gate.py	../ch01/lib/nand_gate.py	1;"	kind:file	line:1
+nand_gate.py	../ch02/lib/nand_gate.py	1;"	kind:file	line:1
+nand_gate.py	../ch03/lib/nand_gate.py	1;"	kind:file	line:1
+nand_gate.py	../ch04/lib/nand_gate.py	1;"	kind:file	line:1
+nand_gate.py	../lib/nand_gate.py	1;"	kind:file	line:1
+network	../ch03/3.4.2-02.py	/^network = init_network()$/;"	kind:variable	line:33
+network	../ch03/3.6.2-neuralnet_mnist.py	/^network = init_network()$/;"	kind:variable	line:34
+network	../ch03/3.6.3-01-sample.py	/^network = init_network()$/;"	kind:variable	line:21
+network	../ch03/3.6.3-02-batch.py	/^network = init_network()$/;"	kind:variable	line:34
+np	../ch01/lib/common.py	/^import numpy as np$/;"	kind:namespace	line:5
+np	../ch02/lib/common.py	/^import numpy as np$/;"	kind:namespace	line:5
+np	../ch03/lib/common.py	/^import numpy as np$/;"	kind:namespace	line:5
+np	../ch04/lib/common.py	/^import numpy as np$/;"	kind:namespace	line:5
+np	../lib/common.py	/^import numpy as np$/;"	kind:namespace	line:5
+numerical_diff	../ch04/4.3.1-01-numerical-diff.py	/^def numerical_diff(f, x) :$/;"	kind:function	line:7
+numerical_diff	../ch04/4.3.3-01-partial-differential.py	/^def numerical_diff(f, x) :$/;"	kind:function	line:9
+or_gate	../ch01/lib/__init__.py	/^from . import or_gate$/;"	kind:namespace	line:3
+or_gate	../ch02/2.3.3-or.py	/^from lib import or_gate$/;"	kind:namespace	line:1
+or_gate	../ch02/2.5.2-xor.py	/^from lib import or_gate$/;"	kind:namespace	line:2
+or_gate	../ch02/lib/__init__.py	/^from . import or_gate$/;"	kind:namespace	line:3
+or_gate	../ch03/lib/__init__.py	/^from . import or_gate$/;"	kind:namespace	line:3
+or_gate	../ch04/lib/__init__.py	/^from . import or_gate$/;"	kind:namespace	line:3
+or_gate	../lib/__init__.py	/^from . import or_gate$/;"	kind:namespace	line:3
+or_gate.py	../ch01/lib/or_gate.py	1;"	kind:file	line:1
+or_gate.py	../ch02/lib/or_gate.py	1;"	kind:file	line:1
+or_gate.py	../ch03/lib/or_gate.py	1;"	kind:file	line:1
+or_gate.py	../ch04/lib/or_gate.py	1;"	kind:file	line:1
+or_gate.py	../lib/or_gate.py	1;"	kind:file	line:1
+os	../ch01/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+os	../ch02/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+os	../ch03/3.6.1-mnist.py	/^import sys, os$/;"	kind:namespace	line:1
+os	../ch03/3.6.1-mnist_show.py	/^import sys, os$/;"	kind:namespace	line:1
+os	../ch03/3.6.2-neuralnet_mnist.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
+os	../ch03/3.6.3-01-sample.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
+os	../ch03/3.6.3-02-batch.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
+os	../ch03/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+os	../ch04/4.2.3-01-mini-batch.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
+os	../ch04/4.3.1-01-numerical-diff.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
+os	../ch04/4.3.3-01-partial-differential.py	/^import sys, os, pickle$/;"	kind:namespace	line:3
+os	../ch04/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+os	../lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+p	../ch03/3.6.2-neuralnet_mnist.py	/^    p = c.np.argmax(y)$/;"	kind:variable	line:39
+p	../ch03/3.6.3-02-batch.py	/^    p = c.np.argmax(y_batch, axis=1)$/;"	kind:variable	line:42
+pickle	../ch03/3.6.2-neuralnet_mnist.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
+pickle	../ch03/3.6.3-01-sample.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
+pickle	../ch03/3.6.3-02-batch.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
+pickle	../ch04/4.2.3-01-mini-batch.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
+pickle	../ch04/4.3.1-01-numerical-diff.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
+pickle	../ch04/4.3.3-01-partial-differential.py	/^import sys, os, pickle$/;"	kind:namespace	line:3
+plt	../ch01/lib/common.py	/^from matplotlib import pyplot as plt$/;"	kind:namespace	line:8
+plt	../ch02/lib/common.py	/^from matplotlib import pyplot as plt$/;"	kind:namespace	line:8
+plt	../ch03/lib/common.py	/^from matplotlib import pyplot as plt$/;"	kind:namespace	line:8
+plt	../ch04/lib/common.py	/^from matplotlib import pyplot as plt$/;"	kind:namespace	line:8
+plt	../lib/common.py	/^from matplotlib import pyplot as plt$/;"	kind:namespace	line:8
+plt_show_alt	../ch01/lib/common.py	/^def plt_show_alt(plt):$/;"	kind:function	line:11
+plt_show_alt	../ch02/lib/common.py	/^def plt_show_alt(plt):$/;"	kind:function	line:11
+plt_show_alt	../ch03/lib/common.py	/^def plt_show_alt(plt):$/;"	kind:function	line:11
+plt_show_alt	../ch04/lib/common.py	/^def plt_show_alt(plt):$/;"	kind:function	line:11
+plt_show_alt	../lib/common.py	/^def plt_show_alt(plt):$/;"	kind:function	line:11
+predict	../ch03/3.6.2-neuralnet_mnist.py	/^def predict(network, x):$/;"	kind:function	line:20
+predict	../ch03/3.6.3-02-batch.py	/^def predict(network, x):$/;"	kind:function	line:20
+random	../ch01/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+random	../ch02/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+random	../ch03/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+random	../ch04/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+random	../lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+relu	../ch03/3.2.7-relu_graph.py	/^def relu(x):$/;"	kind:function	line:3
+sig	../ch03/3.4.2-01.py	/^from lib import sigmoid as sig$/;"	kind:namespace	line:2
+sig	../ch03/3.4.2-02.py	/^from lib import sigmoid as sig$/;"	kind:namespace	line:2
+sig	../ch03/3.6.2-neuralnet_mnist.py	/^from lib import sigmoid as sig$/;"	kind:namespace	line:7
+sig	../ch03/3.6.3-01-sample.py	/^from lib import sigmoid as sig$/;"	kind:namespace	line:7
+sig	../ch03/3.6.3-02-batch.py	/^from lib import sigmoid as sig$/;"	kind:namespace	line:7
+sigmoid	../ch01/lib/sigmoid.py	/^def sigmoid(x):$/;"	kind:function	line:3
+sigmoid	../ch02/lib/sigmoid.py	/^def sigmoid(x):$/;"	kind:function	line:3
+sigmoid	../ch03/3.2.4-sigmoid_graph.py	/^def sigmoid(x):$/;"	kind:function	line:3
+sigmoid	../ch03/lib/sigmoid.py	/^def sigmoid(x):$/;"	kind:function	line:3
+sigmoid	../ch04/lib/sigmoid.py	/^def sigmoid(x):$/;"	kind:function	line:3
+sigmoid	../lib/sigmoid.py	/^def sigmoid(x):$/;"	kind:function	line:3
+sigmoid.py	../ch01/lib/sigmoid.py	1;"	kind:file	line:1
+sigmoid.py	../ch02/lib/sigmoid.py	1;"	kind:file	line:1
+sigmoid.py	../ch03/lib/sigmoid.py	1;"	kind:file	line:1
+sigmoid.py	../ch04/lib/sigmoid.py	1;"	kind:file	line:1
+sigmoid.py	../lib/sigmoid.py	1;"	kind:file	line:1
+soft	../ch03/3.5.3-softmax.py	/^from lib import softmax as soft$/;"	kind:namespace	line:2
+soft	../ch03/3.6.2-neuralnet_mnist.py	/^from lib import softmax as soft$/;"	kind:namespace	line:6
+soft	../ch03/3.6.3-01-sample.py	/^from lib import softmax as soft$/;"	kind:namespace	line:6
+soft	../ch03/3.6.3-02-batch.py	/^from lib import softmax as soft$/;"	kind:namespace	line:6
+softmax	../ch01/lib/softmax.py	/^def softmax(a):$/;"	kind:function	line:3
+softmax	../ch02/lib/softmax.py	/^def softmax(a):$/;"	kind:function	line:3
+softmax	../ch03/lib/softmax.py	/^def softmax(a):$/;"	kind:function	line:3
+softmax	../ch04/lib/softmax.py	/^def softmax(a):$/;"	kind:function	line:3
+softmax	../lib/softmax.py	/^def softmax(a):$/;"	kind:function	line:3
+softmax.py	../ch01/lib/softmax.py	1;"	kind:file	line:1
+softmax.py	../ch02/lib/softmax.py	1;"	kind:file	line:1
+softmax.py	../ch03/lib/softmax.py	1;"	kind:file	line:1
+softmax.py	../ch04/lib/softmax.py	1;"	kind:file	line:1
+softmax.py	../lib/softmax.py	1;"	kind:file	line:1
+step_function	../ch03/3.2.2-step_function.py	/^def step_function(x):$/;"	kind:function	line:3
+step_function	../ch03/3.2.3-step_function_graph.py	/^def step_function(x):$/;"	kind:function	line:3
+sys	../ch01/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+sys	../ch02/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+sys	../ch03/3.6.1-mnist.py	/^import sys, os$/;"	kind:namespace	line:1
+sys	../ch03/3.6.1-mnist_show.py	/^import sys, os$/;"	kind:namespace	line:1
+sys	../ch03/3.6.2-neuralnet_mnist.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
+sys	../ch03/3.6.3-01-sample.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
+sys	../ch03/3.6.3-02-batch.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
+sys	../ch03/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+sys	../ch04/4.2.3-01-mini-batch.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
+sys	../ch04/4.3.1-01-numerical-diff.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
+sys	../ch04/4.3.3-01-partial-differential.py	/^import sys, os, pickle$/;"	kind:namespace	line:3
+sys	../ch04/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+sys	../lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+t_batch	../ch04/4.2.3-01-mini-batch.py	/^t_batch = t_train[batch_mask]$/;"	kind:variable	line:15
+tangent_line	../ch04/4.3.1-01-numerical-diff.py	/^def tangent_line(f, x):$/;"	kind:function	line:14
+tangent_line	../ch04/4.3.3-01-partial-differential.py	/^def tangent_line(f, x):$/;"	kind:function	line:16
+tf	../ch04/4.3.1-01-numerical-diff.py	/^tf = tangent_line(function_1, x_point)$/;"	kind:variable	line:31
+train_size	../ch04/4.2.3-01-mini-batch.py	/^train_size = x_train.shape[0]$/;"	kind:variable	line:11
+x	../ch01/1.6.2-sin.py	/^x = c.np.arange(0, 6, 0.1)$/;"	kind:variable	line:3
+x	../ch03/3.2.3-step_function_graph.py	/^x = c.np.arange(-5.0, 5.0, 0.1)$/;"	kind:variable	line:6
+x	../ch03/3.2.4-sigmoid_graph.py	/^x = c.np.arange(-5.0, 5.0, 0.1)$/;"	kind:variable	line:6
+x	../ch03/3.2.7-relu_graph.py	/^x = c.np.arange(-5.0, 5.0, 0.1)$/;"	kind:variable	line:6
+x	../ch03/3.4.2-02.py	/^x = c.np.array([1.0, 0.5])$/;"	kind:variable	line:34
+x	../ch04/4.3.1-01-numerical-diff.py	/^x = c.np.arange(0.0, 20.0, 0.1)$/;"	kind:variable	line:20
+x	../ch04/4.3.3-01-partial-differential.py	/^x = c.np.arange(-3.0, 3.0, 0.1)$/;"	kind:variable	line:22
+x_batch	../ch03/3.6.3-02-batch.py	/^    x_batch = x[i:i+batch_size]$/;"	kind:variable	line:40
+x_batch	../ch04/4.2.3-01-mini-batch.py	/^x_batch = x_train[batch_mask]$/;"	kind:variable	line:14
+x_point	../ch04/4.3.1-01-numerical-diff.py	/^x_point = 15$/;"	kind:variable	line:28
+y	../ch01/1.6.2-sin.py	/^y = c.np.sin(x)$/;"	kind:variable	line:4
+y	../ch03/3.2.3-step_function_graph.py	/^y = step_function(x)$/;"	kind:variable	line:7
+y	../ch03/3.2.4-sigmoid_graph.py	/^y = sigmoid(x)$/;"	kind:variable	line:7
+y	../ch03/3.2.7-relu_graph.py	/^y = relu(x)$/;"	kind:variable	line:7
+y	../ch03/3.4.2-02.py	/^y = forward(network, x)$/;"	kind:variable	line:35
+y	../ch03/3.5.3-softmax.py	/^y = soft.softmax(a)$/;"	kind:variable	line:5
+y	../ch03/3.6.2-neuralnet_mnist.py	/^    y = predict(network, x[i])$/;"	kind:variable	line:38
+y	../ch04/4.3.1-01-numerical-diff.py	/^y = function_1(x)$/;"	kind:variable	line:21
+y	../ch04/4.3.3-01-partial-differential.py	/^y = c.np.arange(-3.0, 3.0, 0.1)$/;"	kind:variable	line:23
+y2	../ch04/4.3.1-01-numerical-diff.py	/^y2 = tf(x)$/;"	kind:variable	line:32
+y_batch	../ch03/3.6.3-02-batch.py	/^    y_batch = predict(network, x_batch)$/;"	kind:variable	line:41
