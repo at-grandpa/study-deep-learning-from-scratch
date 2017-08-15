@@ -26,6 +26,8 @@
 4.2.3-01-mini-batch.py	../ch04/4.2.3-01-mini-batch.py	1;"	kind:file	line:1
 4.3.1-01-numerical-diff.py	../ch04/4.3.1-01-numerical-diff.py	1;"	kind:file	line:1
 4.3.3-01-partial-differential.py	../ch04/4.3.3-01-partial-differential.py	1;"	kind:file	line:1
+4.4-01-numerical-gradient.1.py	../ch04/4.4-01-numerical-gradient.1.py	1;"	kind:file	line:1
+4.4.1-01-gradient-descent.py	../ch04/4.4.1-01-gradient-descent.py	1;"	kind:file	line:1
 A1	../ch03/3.4.2-01.py	/^A1 = c.np.dot(X, W1) + B1$/;"	kind:variable	line:11
 A2	../ch03/3.4.2-01.py	/^A2 = c.np.dot(Z1, W2) + B2$/;"	kind:variable	line:22
 A3	../ch03/3.4.2-01.py	/^A3 = c.np.dot(Z2, W3) + B3$/;"	kind:variable	line:34
@@ -36,6 +38,8 @@ AND	../ch03/lib/and_gate.py	/^def AND(x1, x2):$/;"	kind:function	line:3
 AND	../ch04/lib/and_gate.py	/^def AND(x1, x2):$/;"	kind:function	line:3
 AND	../lib/and_gate.py	/^def AND(x1, x2):$/;"	kind:function	line:3
 Axes3D	../ch04/4.3.3-01-partial-differential.py	/^from mpl_toolkits.mplot3d import Axes3D$/;"	kind:namespace	line:1
+Axes3D	../ch04/4.4-01-numerical-gradient.1.py	/^from mpl_toolkits.mplot3d import Axes3D$/;"	kind:namespace	line:1
+Axes3D	../ch04/4.4.1-01-gradient-descent.py	/^from mpl_toolkits.mplot3d import Axes3D$/;"	kind:namespace	line:1
 B1	../ch03/3.4.2-01.py	/^B1 = c.np.array([0.1, 0.2, 0.3])$/;"	kind:variable	line:6
 B2	../ch03/3.4.2-01.py	/^B2 = c.np.array([0.1, 0.2])$/;"	kind:variable	line:16
 B3	../ch03/3.4.2-01.py	/^B3 = c.np.array([0.1, 0.2])$/;"	kind:variable	line:32
@@ -58,8 +62,10 @@ W1	../ch03/3.4.2-01.py	/^W1 = c.np.array([[0.1, 0.3, 0.5], [0.2, 0.4, 0.6]])$/;"
 W2	../ch03/3.4.2-01.py	/^W2 = c.np.array([[0.1, 0.4], [0.2, 0.5], [0.3, 0.6]])$/;"	kind:variable	line:15
 W3	../ch03/3.4.2-01.py	/^W3 = c.np.array([[0.1, 0.3], [0.2, 0.4]])$/;"	kind:variable	line:31
 X	../ch03/3.4.2-01.py	/^X = c.np.array([1.0, 0.5])$/;"	kind:variable	line:4
+X	../ch04/4.4-01-numerical-gradient.1.py	/^X = X.flatten()$/;"	kind:variable	line:60
 XOR	../ch02/2.5.2-xor.py	/^def XOR(x1, x2):$/;"	kind:function	line:5
 Y	../ch03/3.4.2-01.py	/^Y = identity_function(A3)$/;"	kind:variable	line:35
+Y	../ch04/4.4-01-numerical-gradient.1.py	/^Y = Y.flatten()$/;"	kind:variable	line:61
 Z	../ch04/4.3.3-01-partial-differential.py	/^Z = function_2(c.np.array([X, Y]))$/;"	kind:variable	line:25
 Z1	../ch03/3.4.2-01.py	/^Z1 = sig.sigmoid(A1)$/;"	kind:variable	line:14
 Z2	../ch03/3.4.2-01.py	/^Z2 = sig.sigmoid(A2)$/;"	kind:variable	line:25
@@ -68,6 +74,8 @@ __init__.py	../ch02/lib/__init__.py	1;"	kind:file	line:1
 __init__.py	../ch03/lib/__init__.py	1;"	kind:file	line:1
 __init__.py	../ch04/lib/__init__.py	1;"	kind:file	line:1
 __init__.py	../lib/__init__.py	1;"	kind:file	line:1
+_numerical_gradient_no_batch	../ch04/4.4-01-numerical-gradient.1.py	/^def _numerical_gradient_no_batch(f, x):$/;"	kind:function	line:27
+_numerical_gradient_no_batch	../ch04/4.4.1-01-gradient-descent.py	/^def _numerical_gradient_no_batch(f, x):$/;"	kind:function	line:27
 a	../ch03/3.5.3-softmax.py	/^a = c.np.array([0.3, 2.9, 4.0])$/;"	kind:variable	line:4
 accuracy_count	../ch03/3.6.2-neuralnet_mnist.py	/^accuracy_count = 0$/;"	kind:variable	line:36
 accuracy_count	../ch03/3.6.3-02-batch.py	/^accuracy_count = 0$/;"	kind:variable	line:37
@@ -118,6 +126,8 @@ c	../ch03/lib/softmax.py	/^from lib import common as c$/;"	kind:namespace	line:1
 c	../ch04/4.2.3-01-mini-batch.py	/^from lib import common as c$/;"	kind:namespace	line:5
 c	../ch04/4.3.1-01-numerical-diff.py	/^from lib import common as c$/;"	kind:namespace	line:5
 c	../ch04/4.3.3-01-partial-differential.py	/^from lib import common as c$/;"	kind:namespace	line:7
+c	../ch04/4.4-01-numerical-gradient.1.py	/^from lib import common as c$/;"	kind:namespace	line:6
+c	../ch04/4.4.1-01-gradient-descent.py	/^from lib import common as c$/;"	kind:namespace	line:6
 c	../ch04/lib/and_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
 c	../ch04/lib/nand_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
 c	../ch04/lib/or_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
@@ -144,9 +154,13 @@ fig	../ch04/4.3.3-01-partial-differential.py	/^fig = c.plt.figure()$/;"	kind:var
 forward	../ch03/3.4.2-02.py	/^def forward(network, x):$/;"	kind:function	line:19
 function_1	../ch04/4.3.1-01-numerical-diff.py	/^def function_1(x) :$/;"	kind:function	line:11
 function_2	../ch04/4.3.3-01-partial-differential.py	/^def function_2(x) :$/;"	kind:function	line:13
+function_2	../ch04/4.4-01-numerical-gradient.1.py	/^def function_2(x):$/;"	kind:function	line:15
+function_2	../ch04/4.4.1-01-gradient-descent.py	/^def function_2(x) :$/;"	kind:function	line:12
 get_data	../ch03/3.6.2-neuralnet_mnist.py	/^def get_data():$/;"	kind:function	line:10
 get_data	../ch03/3.6.3-01-sample.py	/^def get_data():$/;"	kind:function	line:10
 get_data	../ch03/3.6.3-02-batch.py	/^def get_data():$/;"	kind:function	line:10
+grad	../ch04/4.4-01-numerical-gradient.1.py	/^grad = numerical_gradient(function_2, c.np.array([X, Y]) )$/;"	kind:variable	line:62
+gradient_descent	../ch04/4.4.1-01-gradient-descent.py	/^def gradient_descent(f, init_x, lr=0.01, step_num=100):$/;"	kind:function	line:57
 identity_function	../ch03/3.4.2-01.py	/^def identity_function(x):$/;"	kind:function	line:28
 identity_function	../ch03/3.4.2-02.py	/^def identity_function(x):$/;"	kind:function	line:4
 image_show_alt	../ch01/lib/common.py	/^def image_show_alt(img):$/;"	kind:function	line:16
@@ -162,6 +176,8 @@ init_network	../ch03/3.4.2-02.py	/^def init_network():$/;"	kind:function	line:7
 init_network	../ch03/3.6.2-neuralnet_mnist.py	/^def init_network():$/;"	kind:function	line:15
 init_network	../ch03/3.6.3-01-sample.py	/^def init_network():$/;"	kind:function	line:15
 init_network	../ch03/3.6.3-02-batch.py	/^def init_network():$/;"	kind:function	line:15
+init_x	../ch04/4.4.1-01-gradient-descent.py	/^init_x = c.np.array([-3.0, 4.0])$/;"	kind:variable	line:69
+init_x	../ch04/4.4.1-01-gradient-descent.py	/^init_x = c.np.array([-3.0, 4.0])$/;"	kind:variable	line:72
 label	../ch03/3.6.1-mnist_show.py	/^label = t_train[0]$/;"	kind:variable	line:11
 load_mnist	../ch03/3.6.1-mnist.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:4
 load_mnist	../ch03/3.6.1-mnist_show.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:4
@@ -171,6 +187,7 @@ load_mnist	../ch03/3.6.3-02-batch.py	/^from dataset.mnist import load_mnist$/;"	
 load_mnist	../ch04/4.2.3-01-mini-batch.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:4
 load_mnist	../ch04/4.3.1-01-numerical-diff.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:4
 load_mnist	../ch04/4.3.3-01-partial-differential.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:6
+lr	../ch04/4.4.1-01-gradient-descent.py	/^lr = 0.1$/;"	kind:variable	line:74
 math	../ch01/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
 math	../ch02/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
 math	../ch03/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
@@ -204,6 +221,10 @@ np	../ch04/lib/common.py	/^import numpy as np$/;"	kind:namespace	line:5
 np	../lib/common.py	/^import numpy as np$/;"	kind:namespace	line:5
 numerical_diff	../ch04/4.3.1-01-numerical-diff.py	/^def numerical_diff(f, x) :$/;"	kind:function	line:7
 numerical_diff	../ch04/4.3.3-01-partial-differential.py	/^def numerical_diff(f, x) :$/;"	kind:function	line:9
+numerical_diff	../ch04/4.4-01-numerical-gradient.1.py	/^def numerical_diff(f, x) :$/;"	kind:function	line:8
+numerical_diff	../ch04/4.4.1-01-gradient-descent.py	/^def numerical_diff(f, x) :$/;"	kind:function	line:8
+numerical_gradient	../ch04/4.4-01-numerical-gradient.1.py	/^def numerical_gradient(f, X):$/;"	kind:function	line:46
+numerical_gradient	../ch04/4.4.1-01-gradient-descent.py	/^def numerical_gradient(f, X):$/;"	kind:function	line:46
 or_gate	../ch01/lib/__init__.py	/^from . import or_gate$/;"	kind:namespace	line:3
 or_gate	../ch02/2.3.3-or.py	/^from lib import or_gate$/;"	kind:namespace	line:1
 or_gate	../ch02/2.5.2-xor.py	/^from lib import or_gate$/;"	kind:namespace	line:2
@@ -227,6 +248,8 @@ os	../ch03/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:
 os	../ch04/4.2.3-01-mini-batch.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
 os	../ch04/4.3.1-01-numerical-diff.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
 os	../ch04/4.3.3-01-partial-differential.py	/^import sys, os, pickle$/;"	kind:namespace	line:3
+os	../ch04/4.4-01-numerical-gradient.1.py	/^import sys, os, pickle$/;"	kind:namespace	line:3
+os	../ch04/4.4.1-01-gradient-descent.py	/^import sys, os, pickle$/;"	kind:namespace	line:3
 os	../ch04/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
 os	../lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
 p	../ch03/3.6.2-neuralnet_mnist.py	/^    p = c.np.argmax(y)$/;"	kind:variable	line:39
@@ -237,6 +260,8 @@ pickle	../ch03/3.6.3-02-batch.py	/^import sys, os, pickle$/;"	kind:namespace	lin
 pickle	../ch04/4.2.3-01-mini-batch.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
 pickle	../ch04/4.3.1-01-numerical-diff.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
 pickle	../ch04/4.3.3-01-partial-differential.py	/^import sys, os, pickle$/;"	kind:namespace	line:3
+pickle	../ch04/4.4-01-numerical-gradient.1.py	/^import sys, os, pickle$/;"	kind:namespace	line:3
+pickle	../ch04/4.4.1-01-gradient-descent.py	/^import sys, os, pickle$/;"	kind:namespace	line:3
 plt	../ch01/lib/common.py	/^from matplotlib import pyplot as plt$/;"	kind:namespace	line:8
 plt	../ch02/lib/common.py	/^from matplotlib import pyplot as plt$/;"	kind:namespace	line:8
 plt	../ch03/lib/common.py	/^from matplotlib import pyplot as plt$/;"	kind:namespace	line:8
@@ -287,6 +312,7 @@ softmax.py	../ch04/lib/softmax.py	1;"	kind:file	line:1
 softmax.py	../lib/softmax.py	1;"	kind:file	line:1
 step_function	../ch03/3.2.2-step_function.py	/^def step_function(x):$/;"	kind:function	line:3
 step_function	../ch03/3.2.3-step_function_graph.py	/^def step_function(x):$/;"	kind:function	line:3
+step_num	../ch04/4.4.1-01-gradient-descent.py	/^step_num = 20$/;"	kind:variable	line:75
 sys	../ch01/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
 sys	../ch02/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
 sys	../ch03/3.6.1-mnist.py	/^import sys, os$/;"	kind:namespace	line:1
@@ -298,11 +324,15 @@ sys	../ch03/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line
 sys	../ch04/4.2.3-01-mini-batch.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
 sys	../ch04/4.3.1-01-numerical-diff.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
 sys	../ch04/4.3.3-01-partial-differential.py	/^import sys, os, pickle$/;"	kind:namespace	line:3
+sys	../ch04/4.4-01-numerical-gradient.1.py	/^import sys, os, pickle$/;"	kind:namespace	line:3
+sys	../ch04/4.4.1-01-gradient-descent.py	/^import sys, os, pickle$/;"	kind:namespace	line:3
 sys	../ch04/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
 sys	../lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
 t_batch	../ch04/4.2.3-01-mini-batch.py	/^t_batch = t_train[batch_mask]$/;"	kind:variable	line:15
 tangent_line	../ch04/4.3.1-01-numerical-diff.py	/^def tangent_line(f, x):$/;"	kind:function	line:14
 tangent_line	../ch04/4.3.3-01-partial-differential.py	/^def tangent_line(f, x):$/;"	kind:function	line:16
+tangent_line	../ch04/4.4-01-numerical-gradient.1.py	/^def tangent_line(f, x):$/;"	kind:function	line:21
+tangent_line	../ch04/4.4.1-01-gradient-descent.py	/^def tangent_line(f, x):$/;"	kind:function	line:21
 tf	../ch04/4.3.1-01-numerical-diff.py	/^tf = tangent_line(function_1, x_point)$/;"	kind:variable	line:31
 train_size	../ch04/4.2.3-01-mini-batch.py	/^train_size = x_train.shape[0]$/;"	kind:variable	line:11
 x	../ch01/1.6.2-sin.py	/^x = c.np.arange(0, 6, 0.1)$/;"	kind:variable	line:3
@@ -312,6 +342,8 @@ x	../ch03/3.2.7-relu_graph.py	/^x = c.np.arange(-5.0, 5.0, 0.1)$/;"	kind:variabl
 x	../ch03/3.4.2-02.py	/^x = c.np.array([1.0, 0.5])$/;"	kind:variable	line:34
 x	../ch04/4.3.1-01-numerical-diff.py	/^x = c.np.arange(0.0, 20.0, 0.1)$/;"	kind:variable	line:20
 x	../ch04/4.3.3-01-partial-differential.py	/^x = c.np.arange(-3.0, 3.0, 0.1)$/;"	kind:variable	line:22
+x0	../ch04/4.4-01-numerical-gradient.1.py	/^x0 = c.np.arange(-2, 2.5, 0.25)$/;"	kind:variable	line:57
+x1	../ch04/4.4-01-numerical-gradient.1.py	/^x1 = c.np.arange(-2, 2.5, 0.25)$/;"	kind:variable	line:58
 x_batch	../ch03/3.6.3-02-batch.py	/^    x_batch = x[i:i+batch_size]$/;"	kind:variable	line:40
 x_batch	../ch04/4.2.3-01-mini-batch.py	/^x_batch = x_train[batch_mask]$/;"	kind:variable	line:14
 x_point	../ch04/4.3.1-01-numerical-diff.py	/^x_point = 15$/;"	kind:variable	line:28
