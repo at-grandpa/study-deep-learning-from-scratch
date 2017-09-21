@@ -58,24 +58,3 @@ class TwoLayerNet:
         grads['W2'] = numerical_gradient(loss_W, self.params['W2'])
         grads['b2'] = numerical_gradient(loss_W, self.params['b2'])
         return grads
-
-
-net = TwoLayerNet(input_size=784, hidden_size=100, output_size=10)
-
-print(net.params['W1'].shape)
-print(net.params['b1'].shape)
-print(net.params['W2'].shape)
-print(net.params['b2'].shape)
-
-x = c.np.random.rand(100, 784)
-t = c.np.random.rand(100, 10)
-y = net.predict(x)
-
-# print(y)
-
-grads = net.numerical_gradient(x, t)
-
-print(grads['W1'].shape)
-print(grads['b1'].shape)
-print(grads['W2'].shape)
-print(grads['b2'].shape)
