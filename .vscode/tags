@@ -28,6 +28,9 @@
 4.3.3-01-partial-differential.py	../ch04/4.3.3-01-partial-differential.py	1;"	kind:file	line:1
 4.4-01-numerical-gradient.1.py	../ch04/4.4-01-numerical-gradient.1.py	1;"	kind:file	line:1
 4.4.1-01-gradient-descent.py	../ch04/4.4.1-01-gradient-descent.py	1;"	kind:file	line:1
+4.4.2-01-simplenet.py	../ch04/4.4.2-01-simplenet.py	1;"	kind:file	line:1
+4.5.1-01-two-layer-net.py	../ch04/4.5.1-01-two-layer-net.py	1;"	kind:file	line:1
+4.5.2-01-mini-batch.py	../ch04/4.5.2-01-mini-batch.py	1;"	kind:file	line:1
 A1	../ch03/3.4.2-01.py	/^A1 = c.np.dot(X, W1) + B1$/;"	kind:variable	line:11
 A2	../ch03/3.4.2-01.py	/^A2 = c.np.dot(Z1, W2) + B2$/;"	kind:variable	line:22
 A3	../ch03/3.4.2-01.py	/^A3 = c.np.dot(Z2, W3) + B3$/;"	kind:variable	line:34
@@ -37,27 +40,98 @@ AND	../ch02/lib/and_gate.py	/^def AND(x1, x2):$/;"	kind:function	line:3
 AND	../ch03/lib/and_gate.py	/^def AND(x1, x2):$/;"	kind:function	line:3
 AND	../ch04/lib/and_gate.py	/^def AND(x1, x2):$/;"	kind:function	line:3
 AND	../lib/and_gate.py	/^def AND(x1, x2):$/;"	kind:function	line:3
+AdaGrad	../ch01/common/optimizer.py	/^class AdaGrad:$/;"	kind:class	line:58
+AdaGrad	../ch04/common/optimizer.py	/^class AdaGrad:$/;"	kind:class	line:58
+AdaGrad	../common/optimizer.py	/^class AdaGrad:$/;"	kind:class	line:58
+Adam	../ch01/common/optimizer.py	/^class Adam:$/;"	kind:class	line:98
+Adam	../ch04/common/optimizer.py	/^class Adam:$/;"	kind:class	line:98
+Adam	../common/optimizer.py	/^class Adam:$/;"	kind:class	line:98
+Affine	../ch01/common/layers.py	/^class Affine:$/;"	kind:class	line:40
+Affine	../ch04/common/layers.py	/^class Affine:$/;"	kind:class	line:40
+Affine	../common/layers.py	/^class Affine:$/;"	kind:class	line:40
+Axes3D	../ch01/lib/two_layer_net.py	/^from mpl_toolkits.mplot3d import Axes3D$/;"	kind:namespace	line:2
+Axes3D	../ch02/lib/two_layer_net.py	/^from mpl_toolkits.mplot3d import Axes3D$/;"	kind:namespace	line:2
+Axes3D	../ch03/lib/two_layer_net.py	/^from mpl_toolkits.mplot3d import Axes3D$/;"	kind:namespace	line:2
 Axes3D	../ch04/4.3.3-01-partial-differential.py	/^from mpl_toolkits.mplot3d import Axes3D$/;"	kind:namespace	line:1
 Axes3D	../ch04/4.4-01-numerical-gradient.1.py	/^from mpl_toolkits.mplot3d import Axes3D$/;"	kind:namespace	line:1
 Axes3D	../ch04/4.4.1-01-gradient-descent.py	/^from mpl_toolkits.mplot3d import Axes3D$/;"	kind:namespace	line:1
+Axes3D	../ch04/4.4.2-01-simplenet.py	/^from mpl_toolkits.mplot3d import Axes3D$/;"	kind:namespace	line:2
+Axes3D	../ch04/4.5.1-01-two-layer-net.py	/^from mpl_toolkits.mplot3d import Axes3D$/;"	kind:namespace	line:2
+Axes3D	../ch04/lib/two_layer_net.py	/^from mpl_toolkits.mplot3d import Axes3D$/;"	kind:namespace	line:2
+Axes3D	../lib/two_layer_net.py	/^from mpl_toolkits.mplot3d import Axes3D$/;"	kind:namespace	line:2
 B1	../ch03/3.4.2-01.py	/^B1 = c.np.array([0.1, 0.2, 0.3])$/;"	kind:variable	line:6
 B2	../ch03/3.4.2-01.py	/^B2 = c.np.array([0.1, 0.2])$/;"	kind:variable	line:16
 B3	../ch03/3.4.2-01.py	/^B3 = c.np.array([0.1, 0.2])$/;"	kind:variable	line:32
+BatchNormalization	../ch01/common/layers.py	/^class BatchNormalization:$/;"	kind:class	line:114
+BatchNormalization	../ch04/common/layers.py	/^class BatchNormalization:$/;"	kind:class	line:114
+BatchNormalization	../common/layers.py	/^class BatchNormalization:$/;"	kind:class	line:114
+Convolution	../ch01/common/layers.py	/^class Convolution:$/;"	kind:class	line:198
+Convolution	../ch04/common/layers.py	/^class Convolution:$/;"	kind:class	line:198
+Convolution	../common/layers.py	/^class Convolution:$/;"	kind:class	line:198
+Dropout	../ch01/common/layers.py	/^class Dropout:$/;"	kind:class	line:95
+Dropout	../ch04/common/layers.py	/^class Dropout:$/;"	kind:class	line:95
+Dropout	../common/layers.py	/^class Dropout:$/;"	kind:class	line:95
 Image	../ch01/lib/common.py	/^from PIL import Image$/;"	kind:namespace	line:9
 Image	../ch02/lib/common.py	/^from PIL import Image$/;"	kind:namespace	line:9
 Image	../ch03/lib/common.py	/^from PIL import Image$/;"	kind:namespace	line:9
 Image	../ch04/lib/common.py	/^from PIL import Image$/;"	kind:namespace	line:9
 Image	../lib/common.py	/^from PIL import Image$/;"	kind:namespace	line:9
+Momentum	../ch01/common/optimizer.py	/^class Momentum:$/;"	kind:class	line:16
+Momentum	../ch04/common/optimizer.py	/^class Momentum:$/;"	kind:class	line:16
+Momentum	../common/optimizer.py	/^class Momentum:$/;"	kind:class	line:16
+MultiLayerNet	../ch01/common/multi_layer_net.py	/^class MultiLayerNet:$/;"	kind:class	line:10
+MultiLayerNet	../ch04/common/multi_layer_net.py	/^class MultiLayerNet:$/;"	kind:class	line:10
+MultiLayerNet	../common/multi_layer_net.py	/^class MultiLayerNet:$/;"	kind:class	line:10
+MultiLayerNetExtend	../ch01/common/multi_layer_net_extend.py	/^class MultiLayerNetExtend:$/;"	kind:class	line:9
+MultiLayerNetExtend	../ch04/common/multi_layer_net_extend.py	/^class MultiLayerNetExtend:$/;"	kind:class	line:9
+MultiLayerNetExtend	../common/multi_layer_net_extend.py	/^class MultiLayerNetExtend:$/;"	kind:class	line:9
 NAND	../ch01/lib/nand_gate.py	/^def NAND(x1, x2):$/;"	kind:function	line:3
 NAND	../ch02/lib/nand_gate.py	/^def NAND(x1, x2):$/;"	kind:function	line:3
 NAND	../ch03/lib/nand_gate.py	/^def NAND(x1, x2):$/;"	kind:function	line:3
 NAND	../ch04/lib/nand_gate.py	/^def NAND(x1, x2):$/;"	kind:function	line:3
 NAND	../lib/nand_gate.py	/^def NAND(x1, x2):$/;"	kind:function	line:3
+Nesterov	../ch01/common/optimizer.py	/^class Nesterov:$/;"	kind:class	line:36
+Nesterov	../ch04/common/optimizer.py	/^class Nesterov:$/;"	kind:class	line:36
+Nesterov	../common/optimizer.py	/^class Nesterov:$/;"	kind:class	line:36
 OR	../ch01/lib/or_gate.py	/^def OR(x1, x2):$/;"	kind:function	line:3
 OR	../ch02/lib/or_gate.py	/^def OR(x1, x2):$/;"	kind:function	line:3
 OR	../ch03/lib/or_gate.py	/^def OR(x1, x2):$/;"	kind:function	line:3
 OR	../ch04/lib/or_gate.py	/^def OR(x1, x2):$/;"	kind:function	line:3
 OR	../lib/or_gate.py	/^def OR(x1, x2):$/;"	kind:function	line:3
+OrderedDict	../ch01/common/multi_layer_net.py	/^from collections import OrderedDict$/;"	kind:namespace	line:5
+OrderedDict	../ch01/common/multi_layer_net_extend.py	/^from collections import OrderedDict$/;"	kind:namespace	line:5
+OrderedDict	../ch04/common/multi_layer_net.py	/^from collections import OrderedDict$/;"	kind:namespace	line:5
+OrderedDict	../ch04/common/multi_layer_net_extend.py	/^from collections import OrderedDict$/;"	kind:namespace	line:5
+OrderedDict	../common/multi_layer_net.py	/^from collections import OrderedDict$/;"	kind:namespace	line:5
+OrderedDict	../common/multi_layer_net_extend.py	/^from collections import OrderedDict$/;"	kind:namespace	line:5
+Pooling	../ch01/common/layers.py	/^class Pooling:$/;"	kind:class	line:246
+Pooling	../ch04/common/layers.py	/^class Pooling:$/;"	kind:class	line:246
+Pooling	../common/layers.py	/^class Pooling:$/;"	kind:class	line:246
+RMSprop	../ch01/common/optimizer.py	/^class RMSprop:$/;"	kind:class	line:77
+RMSprop	../ch04/common/optimizer.py	/^class RMSprop:$/;"	kind:class	line:77
+RMSprop	../common/optimizer.py	/^class RMSprop:$/;"	kind:class	line:77
+Relu	../ch01/common/layers.py	/^class Relu:$/;"	kind:class	line:7
+Relu	../ch04/common/layers.py	/^class Relu:$/;"	kind:class	line:7
+Relu	../common/layers.py	/^class Relu:$/;"	kind:class	line:7
+SGD	../ch01/common/optimizer.py	/^class SGD:$/;"	kind:class	line:4
+SGD	../ch04/common/optimizer.py	/^class SGD:$/;"	kind:class	line:4
+SGD	../common/optimizer.py	/^class SGD:$/;"	kind:class	line:4
+Sigmoid	../ch01/common/layers.py	/^class Sigmoid:$/;"	kind:class	line:25
+Sigmoid	../ch04/common/layers.py	/^class Sigmoid:$/;"	kind:class	line:25
+Sigmoid	../common/layers.py	/^class Sigmoid:$/;"	kind:class	line:25
+SoftmaxWithLoss	../ch01/common/layers.py	/^class SoftmaxWithLoss:$/;"	kind:class	line:70
+SoftmaxWithLoss	../ch04/common/layers.py	/^class SoftmaxWithLoss:$/;"	kind:class	line:70
+SoftmaxWithLoss	../common/layers.py	/^class SoftmaxWithLoss:$/;"	kind:class	line:70
+Trainer	../ch01/common/trainer.py	/^class Trainer:$/;"	kind:class	line:7
+Trainer	../ch04/common/trainer.py	/^class Trainer:$/;"	kind:class	line:7
+Trainer	../common/trainer.py	/^class Trainer:$/;"	kind:class	line:7
+TwoLayerNet	../ch01/lib/two_layer_net.py	/^class TwoLayerNet:$/;"	kind:class	line:16
+TwoLayerNet	../ch02/lib/two_layer_net.py	/^class TwoLayerNet:$/;"	kind:class	line:16
+TwoLayerNet	../ch03/lib/two_layer_net.py	/^class TwoLayerNet:$/;"	kind:class	line:16
+TwoLayerNet	../ch04/4.5.1-01-two-layer-net.py	/^class TwoLayerNet:$/;"	kind:class	line:16
+TwoLayerNet	../ch04/4.5.2-01-mini-batch.py	/^from lib.two_layer_net import TwoLayerNet$/;"	kind:namespace	line:9
+TwoLayerNet	../ch04/lib/two_layer_net.py	/^class TwoLayerNet:$/;"	kind:class	line:16
+TwoLayerNet	../lib/two_layer_net.py	/^class TwoLayerNet:$/;"	kind:class	line:16
 W1	../ch03/3.4.2-01.py	/^W1 = c.np.array([[0.1, 0.3, 0.5], [0.2, 0.4, 0.6]])$/;"	kind:variable	line:5
 W2	../ch03/3.4.2-01.py	/^W2 = c.np.array([[0.1, 0.4], [0.2, 0.5], [0.3, 0.6]])$/;"	kind:variable	line:15
 W3	../ch03/3.4.2-01.py	/^W3 = c.np.array([[0.1, 0.3], [0.2, 0.4]])$/;"	kind:variable	line:31
@@ -69,14 +143,120 @@ Y	../ch04/4.4-01-numerical-gradient.1.py	/^Y = Y.flatten()$/;"	kind:variable	lin
 Z	../ch04/4.3.3-01-partial-differential.py	/^Z = function_2(c.np.array([X, Y]))$/;"	kind:variable	line:25
 Z1	../ch03/3.4.2-01.py	/^Z1 = sig.sigmoid(A1)$/;"	kind:variable	line:14
 Z2	../ch03/3.4.2-01.py	/^Z2 = sig.sigmoid(A2)$/;"	kind:variable	line:25
+__backward	../ch01/common/layers.py	/^    def __backward(self, dout):$/;"	kind:member	line:181
+__backward	../ch04/common/layers.py	/^    def __backward(self, dout):$/;"	kind:member	line:181
+__backward	../common/layers.py	/^    def __backward(self, dout):$/;"	kind:member	line:181
+__forward	../ch01/common/layers.py	/^    def __forward(self, x, train_flg):$/;"	kind:member	line:145
+__forward	../ch04/common/layers.py	/^    def __forward(self, x, train_flg):$/;"	kind:member	line:145
+__forward	../common/layers.py	/^    def __forward(self, x, train_flg):$/;"	kind:member	line:145
+__init__	../ch01/common/layers.py	/^    def __init__(self):$/;"	kind:member	line:26
+__init__	../ch01/common/layers.py	/^    def __init__(self):$/;"	kind:member	line:71
+__init__	../ch01/common/layers.py	/^    def __init__(self):$/;"	kind:member	line:8
+__init__	../ch01/common/layers.py	/^    def __init__(self, W, b):$/;"	kind:member	line:41
+__init__	../ch01/common/layers.py	/^    def __init__(self, W, b, stride=1, pad=0):$/;"	kind:member	line:199
+__init__	../ch01/common/layers.py	/^    def __init__(self, dropout_ratio=0.5):$/;"	kind:member	line:99
+__init__	../ch01/common/layers.py	/^    def __init__(self, gamma, beta, momentum=0.9, running_mean=None, running_var=None):$/;"	kind:member	line:118
+__init__	../ch01/common/layers.py	/^    def __init__(self, pool_h, pool_w, stride=1, pad=0):$/;"	kind:member	line:247
+__init__	../ch01/common/multi_layer_net.py	/^    def __init__(self, input_size, hidden_size_list, output_size,$/;"	kind:member	line:24
+__init__	../ch01/common/multi_layer_net_extend.py	/^    def __init__(self, input_size, hidden_size_list, output_size,$/;"	kind:member	line:28
+__init__	../ch01/common/optimizer.py	/^    def __init__(self, lr=0.001, beta1=0.9, beta2=0.999):$/;"	kind:member	line:102
+__init__	../ch01/common/optimizer.py	/^    def __init__(self, lr=0.01):$/;"	kind:member	line:62
+__init__	../ch01/common/optimizer.py	/^    def __init__(self, lr=0.01):$/;"	kind:member	line:8
+__init__	../ch01/common/optimizer.py	/^    def __init__(self, lr=0.01, decay_rate = 0.99):$/;"	kind:member	line:81
+__init__	../ch01/common/optimizer.py	/^    def __init__(self, lr=0.01, momentum=0.9):$/;"	kind:member	line:20
+__init__	../ch01/common/optimizer.py	/^    def __init__(self, lr=0.01, momentum=0.9):$/;"	kind:member	line:40
+__init__	../ch01/common/trainer.py	/^    def __init__(self, network, x_train, t_train, x_test, t_test,$/;"	kind:member	line:10
+__init__	../ch01/lib/two_layer_net.py	/^    def __init__(self, input_size, hidden_size, output_size, weight_init_std=0.01):$/;"	kind:member	line:18
+__init__	../ch02/lib/two_layer_net.py	/^    def __init__(self, input_size, hidden_size, output_size, weight_init_std=0.01):$/;"	kind:member	line:18
+__init__	../ch03/lib/two_layer_net.py	/^    def __init__(self, input_size, hidden_size, output_size, weight_init_std=0.01):$/;"	kind:member	line:18
+__init__	../ch04/4.4.2-01-simplenet.py	/^    def __init__(self):$/;"	kind:member	line:14
+__init__	../ch04/4.5.1-01-two-layer-net.py	/^    def __init__(self, input_size, hidden_size, output_size, weight_init_std=0.01):$/;"	kind:member	line:18
+__init__	../ch04/common/layers.py	/^    def __init__(self):$/;"	kind:member	line:26
+__init__	../ch04/common/layers.py	/^    def __init__(self):$/;"	kind:member	line:71
+__init__	../ch04/common/layers.py	/^    def __init__(self):$/;"	kind:member	line:8
+__init__	../ch04/common/layers.py	/^    def __init__(self, W, b):$/;"	kind:member	line:41
+__init__	../ch04/common/layers.py	/^    def __init__(self, W, b, stride=1, pad=0):$/;"	kind:member	line:199
+__init__	../ch04/common/layers.py	/^    def __init__(self, dropout_ratio=0.5):$/;"	kind:member	line:99
+__init__	../ch04/common/layers.py	/^    def __init__(self, gamma, beta, momentum=0.9, running_mean=None, running_var=None):$/;"	kind:member	line:118
+__init__	../ch04/common/layers.py	/^    def __init__(self, pool_h, pool_w, stride=1, pad=0):$/;"	kind:member	line:247
+__init__	../ch04/common/multi_layer_net.py	/^    def __init__(self, input_size, hidden_size_list, output_size,$/;"	kind:member	line:24
+__init__	../ch04/common/multi_layer_net_extend.py	/^    def __init__(self, input_size, hidden_size_list, output_size,$/;"	kind:member	line:28
+__init__	../ch04/common/optimizer.py	/^    def __init__(self, lr=0.001, beta1=0.9, beta2=0.999):$/;"	kind:member	line:102
+__init__	../ch04/common/optimizer.py	/^    def __init__(self, lr=0.01):$/;"	kind:member	line:62
+__init__	../ch04/common/optimizer.py	/^    def __init__(self, lr=0.01):$/;"	kind:member	line:8
+__init__	../ch04/common/optimizer.py	/^    def __init__(self, lr=0.01, decay_rate = 0.99):$/;"	kind:member	line:81
+__init__	../ch04/common/optimizer.py	/^    def __init__(self, lr=0.01, momentum=0.9):$/;"	kind:member	line:20
+__init__	../ch04/common/optimizer.py	/^    def __init__(self, lr=0.01, momentum=0.9):$/;"	kind:member	line:40
+__init__	../ch04/common/trainer.py	/^    def __init__(self, network, x_train, t_train, x_test, t_test,$/;"	kind:member	line:10
+__init__	../ch04/lib/two_layer_net.py	/^    def __init__(self, input_size, hidden_size, output_size, weight_init_std=0.01):$/;"	kind:member	line:18
+__init__	../common/layers.py	/^    def __init__(self):$/;"	kind:member	line:26
+__init__	../common/layers.py	/^    def __init__(self):$/;"	kind:member	line:71
+__init__	../common/layers.py	/^    def __init__(self):$/;"	kind:member	line:8
+__init__	../common/layers.py	/^    def __init__(self, W, b):$/;"	kind:member	line:41
+__init__	../common/layers.py	/^    def __init__(self, W, b, stride=1, pad=0):$/;"	kind:member	line:199
+__init__	../common/layers.py	/^    def __init__(self, dropout_ratio=0.5):$/;"	kind:member	line:99
+__init__	../common/layers.py	/^    def __init__(self, gamma, beta, momentum=0.9, running_mean=None, running_var=None):$/;"	kind:member	line:118
+__init__	../common/layers.py	/^    def __init__(self, pool_h, pool_w, stride=1, pad=0):$/;"	kind:member	line:247
+__init__	../common/multi_layer_net.py	/^    def __init__(self, input_size, hidden_size_list, output_size,$/;"	kind:member	line:24
+__init__	../common/multi_layer_net_extend.py	/^    def __init__(self, input_size, hidden_size_list, output_size,$/;"	kind:member	line:28
+__init__	../common/optimizer.py	/^    def __init__(self, lr=0.001, beta1=0.9, beta2=0.999):$/;"	kind:member	line:102
+__init__	../common/optimizer.py	/^    def __init__(self, lr=0.01):$/;"	kind:member	line:62
+__init__	../common/optimizer.py	/^    def __init__(self, lr=0.01):$/;"	kind:member	line:8
+__init__	../common/optimizer.py	/^    def __init__(self, lr=0.01, decay_rate = 0.99):$/;"	kind:member	line:81
+__init__	../common/optimizer.py	/^    def __init__(self, lr=0.01, momentum=0.9):$/;"	kind:member	line:20
+__init__	../common/optimizer.py	/^    def __init__(self, lr=0.01, momentum=0.9):$/;"	kind:member	line:40
+__init__	../common/trainer.py	/^    def __init__(self, network, x_train, t_train, x_test, t_test,$/;"	kind:member	line:10
+__init__	../lib/two_layer_net.py	/^    def __init__(self, input_size, hidden_size, output_size, weight_init_std=0.01):$/;"	kind:member	line:18
+__init__.py	../ch01/common/__init__.py	1;"	kind:file	line:1
 __init__.py	../ch01/lib/__init__.py	1;"	kind:file	line:1
 __init__.py	../ch02/lib/__init__.py	1;"	kind:file	line:1
+__init__.py	../ch03/dataset/__init__.py	1;"	kind:file	line:1
 __init__.py	../ch03/lib/__init__.py	1;"	kind:file	line:1
+__init__.py	../ch04/common/__init__.py	1;"	kind:file	line:1
+__init__.py	../ch04/dataset/__init__.py	1;"	kind:file	line:1
 __init__.py	../ch04/lib/__init__.py	1;"	kind:file	line:1
+__init__.py	../common/__init__.py	1;"	kind:file	line:1
+__init__.py	../dataset/__init__.py	1;"	kind:file	line:1
 __init__.py	../lib/__init__.py	1;"	kind:file	line:1
+__init_weight	../ch01/common/multi_layer_net.py	/^    def __init_weight(self, weight_init_std):$/;"	kind:member	line:50
+__init_weight	../ch01/common/multi_layer_net_extend.py	/^    def __init_weight(self, weight_init_std):$/;"	kind:member	line:64
+__init_weight	../ch04/common/multi_layer_net.py	/^    def __init_weight(self, weight_init_std):$/;"	kind:member	line:50
+__init_weight	../ch04/common/multi_layer_net_extend.py	/^    def __init_weight(self, weight_init_std):$/;"	kind:member	line:64
+__init_weight	../common/multi_layer_net.py	/^    def __init_weight(self, weight_init_std):$/;"	kind:member	line:50
+__init_weight	../common/multi_layer_net_extend.py	/^    def __init_weight(self, weight_init_std):$/;"	kind:member	line:64
+_change_one_hot_label	../ch03/dataset/mnist.py	/^def _change_one_hot_label(X):$/;"	kind:function	line:82
+_change_one_hot_label	../ch04/dataset/mnist.py	/^def _change_one_hot_label(X):$/;"	kind:function	line:82
+_change_one_hot_label	../dataset/mnist.py	/^def _change_one_hot_label(X):$/;"	kind:function	line:82
+_convert_numpy	../ch03/dataset/mnist.py	/^def _convert_numpy():$/;"	kind:function	line:65
+_convert_numpy	../ch04/dataset/mnist.py	/^def _convert_numpy():$/;"	kind:function	line:65
+_convert_numpy	../dataset/mnist.py	/^def _convert_numpy():$/;"	kind:function	line:65
+_download	../ch03/dataset/mnist.py	/^def _download(file_name):$/;"	kind:function	line:30
+_download	../ch04/dataset/mnist.py	/^def _download(file_name):$/;"	kind:function	line:30
+_download	../dataset/mnist.py	/^def _download(file_name):$/;"	kind:function	line:30
+_load_img	../ch03/dataset/mnist.py	/^def _load_img(file_name):$/;"	kind:function	line:54
+_load_img	../ch04/dataset/mnist.py	/^def _load_img(file_name):$/;"	kind:function	line:54
+_load_img	../dataset/mnist.py	/^def _load_img(file_name):$/;"	kind:function	line:54
+_load_label	../ch03/dataset/mnist.py	/^def _load_label(file_name):$/;"	kind:function	line:44
+_load_label	../ch04/dataset/mnist.py	/^def _load_label(file_name):$/;"	kind:function	line:44
+_load_label	../dataset/mnist.py	/^def _load_label(file_name):$/;"	kind:function	line:44
+_numerical_gradient_1d	../ch01/common/gradient.py	/^def _numerical_gradient_1d(f, x):$/;"	kind:function	line:4
+_numerical_gradient_1d	../ch04/common/gradient.py	/^def _numerical_gradient_1d(f, x):$/;"	kind:function	line:4
+_numerical_gradient_1d	../common/gradient.py	/^def _numerical_gradient_1d(f, x):$/;"	kind:function	line:4
 _numerical_gradient_no_batch	../ch04/4.4-01-numerical-gradient.1.py	/^def _numerical_gradient_no_batch(f, x):$/;"	kind:function	line:27
 _numerical_gradient_no_batch	../ch04/4.4.1-01-gradient-descent.py	/^def _numerical_gradient_no_batch(f, x):$/;"	kind:function	line:27
 a	../ch03/3.5.3-softmax.py	/^a = c.np.array([0.3, 2.9, 4.0])$/;"	kind:variable	line:4
+accuracy	../ch01/common/multi_layer_net.py	/^    def accuracy(self, x, t):$/;"	kind:member	line:97
+accuracy	../ch01/common/multi_layer_net_extend.py	/^    def accuracy(self, X, T):$/;"	kind:member	line:105
+accuracy	../ch01/lib/two_layer_net.py	/^    def accuracy(self, x, t):$/;"	kind:member	line:44
+accuracy	../ch02/lib/two_layer_net.py	/^    def accuracy(self, x, t):$/;"	kind:member	line:44
+accuracy	../ch03/lib/two_layer_net.py	/^    def accuracy(self, x, t):$/;"	kind:member	line:44
+accuracy	../ch04/4.5.1-01-two-layer-net.py	/^    def accuracy(self, x, t):$/;"	kind:member	line:44
+accuracy	../ch04/common/multi_layer_net.py	/^    def accuracy(self, x, t):$/;"	kind:member	line:97
+accuracy	../ch04/common/multi_layer_net_extend.py	/^    def accuracy(self, X, T):$/;"	kind:member	line:105
+accuracy	../ch04/lib/two_layer_net.py	/^    def accuracy(self, x, t):$/;"	kind:member	line:44
+accuracy	../common/multi_layer_net.py	/^    def accuracy(self, x, t):$/;"	kind:member	line:97
+accuracy	../common/multi_layer_net_extend.py	/^    def accuracy(self, X, T):$/;"	kind:member	line:105
+accuracy	../lib/two_layer_net.py	/^    def accuracy(self, x, t):$/;"	kind:member	line:44
 accuracy_count	../ch03/3.6.2-neuralnet_mnist.py	/^accuracy_count = 0$/;"	kind:variable	line:36
 accuracy_count	../ch03/3.6.3-02-batch.py	/^accuracy_count = 0$/;"	kind:variable	line:37
 and_gate	../ch01/lib/__init__.py	/^from . import and_gate$/;"	kind:namespace	line:2
@@ -92,9 +272,35 @@ and_gate.py	../ch03/lib/and_gate.py	1;"	kind:file	line:1
 and_gate.py	../ch04/lib/and_gate.py	1;"	kind:file	line:1
 and_gate.py	../lib/and_gate.py	1;"	kind:file	line:1
 ax	../ch04/4.3.3-01-partial-differential.py	/^ax = Axes3D(fig)$/;"	kind:variable	line:28
+backward	../ch01/common/layers.py	/^    def backward(self, dout):$/;"	kind:member	line:110
+backward	../ch01/common/layers.py	/^    def backward(self, dout):$/;"	kind:member	line:171
+backward	../ch01/common/layers.py	/^    def backward(self, dout):$/;"	kind:member	line:18
+backward	../ch01/common/layers.py	/^    def backward(self, dout):$/;"	kind:member	line:232
+backward	../ch01/common/layers.py	/^    def backward(self, dout):$/;"	kind:member	line:273
+backward	../ch01/common/layers.py	/^    def backward(self, dout):$/;"	kind:member	line:34
+backward	../ch01/common/layers.py	/^    def backward(self, dout):$/;"	kind:member	line:61
+backward	../ch01/common/layers.py	/^    def backward(self, dout=1):$/;"	kind:member	line:83
+backward	../ch04/common/layers.py	/^    def backward(self, dout):$/;"	kind:member	line:110
+backward	../ch04/common/layers.py	/^    def backward(self, dout):$/;"	kind:member	line:171
+backward	../ch04/common/layers.py	/^    def backward(self, dout):$/;"	kind:member	line:18
+backward	../ch04/common/layers.py	/^    def backward(self, dout):$/;"	kind:member	line:232
+backward	../ch04/common/layers.py	/^    def backward(self, dout):$/;"	kind:member	line:273
+backward	../ch04/common/layers.py	/^    def backward(self, dout):$/;"	kind:member	line:34
+backward	../ch04/common/layers.py	/^    def backward(self, dout):$/;"	kind:member	line:61
+backward	../ch04/common/layers.py	/^    def backward(self, dout=1):$/;"	kind:member	line:83
+backward	../common/layers.py	/^    def backward(self, dout):$/;"	kind:member	line:110
+backward	../common/layers.py	/^    def backward(self, dout):$/;"	kind:member	line:171
+backward	../common/layers.py	/^    def backward(self, dout):$/;"	kind:member	line:18
+backward	../common/layers.py	/^    def backward(self, dout):$/;"	kind:member	line:232
+backward	../common/layers.py	/^    def backward(self, dout):$/;"	kind:member	line:273
+backward	../common/layers.py	/^    def backward(self, dout):$/;"	kind:member	line:34
+backward	../common/layers.py	/^    def backward(self, dout):$/;"	kind:member	line:61
+backward	../common/layers.py	/^    def backward(self, dout=1):$/;"	kind:member	line:83
 batch_mask	../ch04/4.2.3-01-mini-batch.py	/^batch_mask = c.np.random.choice(train_size, batch_size)$/;"	kind:variable	line:13
+batch_mask	../ch04/4.5.2-01-mini-batch.py	/^    batch_mask = c.np.random.choice(train_size, batch_size)$/;"	kind:variable	line:32
 batch_size	../ch03/3.6.3-02-batch.py	/^batch_size = 100$/;"	kind:variable	line:36
 batch_size	../ch04/4.2.3-01-mini-batch.py	/^batch_size = 10$/;"	kind:variable	line:12
+batch_size	../ch04/4.5.2-01-mini-batch.py	/^batch_size = 100$/;"	kind:variable	line:19
 c	../ch01/1.6.2-sin.py	/^from lib import common as c$/;"	kind:namespace	line:1
 c	../ch01/1.6.3-lena.py	/^from lib import common as c$/;"	kind:namespace	line:1
 c	../ch01/lib/and_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
@@ -102,11 +308,13 @@ c	../ch01/lib/nand_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
 c	../ch01/lib/or_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
 c	../ch01/lib/sigmoid.py	/^from lib import common as c$/;"	kind:namespace	line:1
 c	../ch01/lib/softmax.py	/^from lib import common as c$/;"	kind:namespace	line:1
+c	../ch01/lib/two_layer_net.py	/^from lib import common as c$/;"	kind:namespace	line:9
 c	../ch02/lib/and_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
 c	../ch02/lib/nand_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
 c	../ch02/lib/or_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
 c	../ch02/lib/sigmoid.py	/^from lib import common as c$/;"	kind:namespace	line:1
 c	../ch02/lib/softmax.py	/^from lib import common as c$/;"	kind:namespace	line:1
+c	../ch02/lib/two_layer_net.py	/^from lib import common as c$/;"	kind:namespace	line:9
 c	../ch03/3.2.2-step_function.py	/^from lib import common as c$/;"	kind:namespace	line:1
 c	../ch03/3.2.3-step_function_graph.py	/^from lib import common as c$/;"	kind:namespace	line:1
 c	../ch03/3.2.4-sigmoid_graph.py	/^from lib import common as c$/;"	kind:namespace	line:1
@@ -123,21 +331,33 @@ c	../ch03/lib/nand_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
 c	../ch03/lib/or_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
 c	../ch03/lib/sigmoid.py	/^from lib import common as c$/;"	kind:namespace	line:1
 c	../ch03/lib/softmax.py	/^from lib import common as c$/;"	kind:namespace	line:1
+c	../ch03/lib/two_layer_net.py	/^from lib import common as c$/;"	kind:namespace	line:9
 c	../ch04/4.2.3-01-mini-batch.py	/^from lib import common as c$/;"	kind:namespace	line:5
 c	../ch04/4.3.1-01-numerical-diff.py	/^from lib import common as c$/;"	kind:namespace	line:5
 c	../ch04/4.3.3-01-partial-differential.py	/^from lib import common as c$/;"	kind:namespace	line:7
 c	../ch04/4.4-01-numerical-gradient.1.py	/^from lib import common as c$/;"	kind:namespace	line:6
 c	../ch04/4.4.1-01-gradient-descent.py	/^from lib import common as c$/;"	kind:namespace	line:6
+c	../ch04/4.4.2-01-simplenet.py	/^from lib import common as c$/;"	kind:namespace	line:7
+c	../ch04/4.5.1-01-two-layer-net.py	/^from lib import common as c$/;"	kind:namespace	line:9
+c	../ch04/4.5.2-01-mini-batch.py	/^from lib import common as c$/;"	kind:namespace	line:7
 c	../ch04/lib/and_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
 c	../ch04/lib/nand_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
 c	../ch04/lib/or_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
 c	../ch04/lib/sigmoid.py	/^from lib import common as c$/;"	kind:namespace	line:1
 c	../ch04/lib/softmax.py	/^from lib import common as c$/;"	kind:namespace	line:1
+c	../ch04/lib/two_layer_net.py	/^from lib import common as c$/;"	kind:namespace	line:9
 c	../lib/and_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
 c	../lib/nand_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
 c	../lib/or_gate.py	/^from . import common as c$/;"	kind:namespace	line:1
 c	../lib/sigmoid.py	/^from lib import common as c$/;"	kind:namespace	line:1
 c	../lib/softmax.py	/^from lib import common as c$/;"	kind:namespace	line:1
+c	../lib/two_layer_net.py	/^from lib import common as c$/;"	kind:namespace	line:9
+col2im	../ch01/common/layers.py	/^from common.util import im2col, col2im$/;"	kind:namespace	line:4
+col2im	../ch01/common/util.py	/^def col2im(col, input_shape, filter_h, filter_w, stride=1, pad=0):$/;"	kind:function	line:71
+col2im	../ch04/common/layers.py	/^from common.util import im2col, col2im$/;"	kind:namespace	line:4
+col2im	../ch04/common/util.py	/^def col2im(col, input_shape, filter_h, filter_w, stride=1, pad=0):$/;"	kind:function	line:71
+col2im	../common/layers.py	/^from common.util import im2col, col2im$/;"	kind:namespace	line:4
+col2im	../common/util.py	/^def col2im(col, input_shape, filter_h, filter_w, stride=1, pad=0):$/;"	kind:function	line:71
 common	../ch01/lib/__init__.py	/^from . import common$/;"	kind:namespace	line:1
 common	../ch02/lib/__init__.py	/^from . import common$/;"	kind:namespace	line:1
 common	../ch03/lib/__init__.py	/^from . import common$/;"	kind:namespace	line:1
@@ -148,21 +368,98 @@ common.py	../ch02/lib/common.py	1;"	kind:file	line:1
 common.py	../ch03/lib/common.py	1;"	kind:file	line:1
 common.py	../ch04/lib/common.py	1;"	kind:file	line:1
 common.py	../lib/common.py	1;"	kind:file	line:1
+conv_output_size	../ch01/common/util.py	/^def conv_output_size(input_size, filter_size, stride=1, pad=0):$/;"	kind:function	line:35
+conv_output_size	../ch04/common/util.py	/^def conv_output_size(input_size, filter_size, stride=1, pad=0):$/;"	kind:function	line:35
+conv_output_size	../common/util.py	/^def conv_output_size(input_size, filter_size, stride=1, pad=0):$/;"	kind:function	line:35
+cross_entropy_error	../ch01/common/functions.py	/^def cross_entropy_error(y, t):$/;"	kind:function	line:46
+cross_entropy_error	../ch01/lib/two_layer_net.py	/^from common.functions import softmax, cross_entropy_error$/;"	kind:namespace	line:12
+cross_entropy_error	../ch02/lib/two_layer_net.py	/^from common.functions import softmax, cross_entropy_error$/;"	kind:namespace	line:12
+cross_entropy_error	../ch03/lib/two_layer_net.py	/^from common.functions import softmax, cross_entropy_error$/;"	kind:namespace	line:12
 cross_entropy_error	../ch04/4.2.3-01-mini-batch.py	/^def cross_entropy_error(y, t) :$/;"	kind:function	line:17
+cross_entropy_error	../ch04/4.4.2-01-simplenet.py	/^from common.functions import softmax, cross_entropy_error$/;"	kind:namespace	line:9
+cross_entropy_error	../ch04/4.5.1-01-two-layer-net.py	/^from common.functions import softmax, cross_entropy_error$/;"	kind:namespace	line:12
+cross_entropy_error	../ch04/common/functions.py	/^def cross_entropy_error(y, t):$/;"	kind:function	line:46
+cross_entropy_error	../ch04/lib/two_layer_net.py	/^from common.functions import softmax, cross_entropy_error$/;"	kind:namespace	line:12
+cross_entropy_error	../common/functions.py	/^def cross_entropy_error(y, t):$/;"	kind:function	line:46
+cross_entropy_error	../lib/two_layer_net.py	/^from common.functions import softmax, cross_entropy_error$/;"	kind:namespace	line:12
 current_dir_path	../ch01/1.6.3-lena.py	/^current_dir_path = c.os.path.dirname(__file__)$/;"	kind:variable	line:4
+dW	../ch04/4.4.2-01-simplenet.py	/^dW = numerical_gradient(f, net.W)$/;"	kind:variable	line:33
+dataset_dir	../ch03/dataset/mnist.py	/^dataset_dir = os.path.dirname(os.path.abspath(__file__))$/;"	kind:variable	line:21
+dataset_dir	../ch04/dataset/mnist.py	/^dataset_dir = os.path.dirname(os.path.abspath(__file__))$/;"	kind:variable	line:21
+dataset_dir	../dataset/mnist.py	/^dataset_dir = os.path.dirname(os.path.abspath(__file__))$/;"	kind:variable	line:21
+download_mnist	../ch03/dataset/mnist.py	/^def download_mnist():$/;"	kind:function	line:40
+download_mnist	../ch04/dataset/mnist.py	/^def download_mnist():$/;"	kind:function	line:40
+download_mnist	../dataset/mnist.py	/^def download_mnist():$/;"	kind:function	line:40
+f	../ch04/4.4.2-01-simplenet.py	/^f = lambda w: net.loss(x, t)$/;"	kind:variable	line:32
 fig	../ch04/4.3.3-01-partial-differential.py	/^fig = c.plt.figure()$/;"	kind:variable	line:27
+forward	../ch01/common/layers.py	/^    def forward(self, x):$/;"	kind:member	line:11
+forward	../ch01/common/layers.py	/^    def forward(self, x):$/;"	kind:member	line:214
+forward	../ch01/common/layers.py	/^    def forward(self, x):$/;"	kind:member	line:256
+forward	../ch01/common/layers.py	/^    def forward(self, x):$/;"	kind:member	line:29
+forward	../ch01/common/layers.py	/^    def forward(self, x):$/;"	kind:member	line:51
+forward	../ch01/common/layers.py	/^    def forward(self, x, t):$/;"	kind:member	line:76
+forward	../ch01/common/layers.py	/^    def forward(self, x, train_flg=True):$/;"	kind:member	line:103
+forward	../ch01/common/layers.py	/^    def forward(self, x, train_flg=True):$/;"	kind:member	line:135
 forward	../ch03/3.4.2-02.py	/^def forward(network, x):$/;"	kind:function	line:19
+forward	../ch04/common/layers.py	/^    def forward(self, x):$/;"	kind:member	line:11
+forward	../ch04/common/layers.py	/^    def forward(self, x):$/;"	kind:member	line:214
+forward	../ch04/common/layers.py	/^    def forward(self, x):$/;"	kind:member	line:256
+forward	../ch04/common/layers.py	/^    def forward(self, x):$/;"	kind:member	line:29
+forward	../ch04/common/layers.py	/^    def forward(self, x):$/;"	kind:member	line:51
+forward	../ch04/common/layers.py	/^    def forward(self, x, t):$/;"	kind:member	line:76
+forward	../ch04/common/layers.py	/^    def forward(self, x, train_flg=True):$/;"	kind:member	line:103
+forward	../ch04/common/layers.py	/^    def forward(self, x, train_flg=True):$/;"	kind:member	line:135
+forward	../common/layers.py	/^    def forward(self, x):$/;"	kind:member	line:11
+forward	../common/layers.py	/^    def forward(self, x):$/;"	kind:member	line:214
+forward	../common/layers.py	/^    def forward(self, x):$/;"	kind:member	line:256
+forward	../common/layers.py	/^    def forward(self, x):$/;"	kind:member	line:29
+forward	../common/layers.py	/^    def forward(self, x):$/;"	kind:member	line:51
+forward	../common/layers.py	/^    def forward(self, x, t):$/;"	kind:member	line:76
+forward	../common/layers.py	/^    def forward(self, x, train_flg=True):$/;"	kind:member	line:103
+forward	../common/layers.py	/^    def forward(self, x, train_flg=True):$/;"	kind:member	line:135
 function_1	../ch04/4.3.1-01-numerical-diff.py	/^def function_1(x) :$/;"	kind:function	line:11
 function_2	../ch04/4.3.3-01-partial-differential.py	/^def function_2(x) :$/;"	kind:function	line:13
 function_2	../ch04/4.4-01-numerical-gradient.1.py	/^def function_2(x):$/;"	kind:function	line:15
 function_2	../ch04/4.4.1-01-gradient-descent.py	/^def function_2(x) :$/;"	kind:function	line:12
+functions	../ch01/common/__init__.py	/^from . import functions$/;"	kind:namespace	line:1
+functions	../ch04/common/__init__.py	/^from . import functions$/;"	kind:namespace	line:1
+functions	../common/__init__.py	/^from . import functions$/;"	kind:namespace	line:1
+functions.py	../ch01/common/functions.py	1;"	kind:file	line:1
+functions.py	../ch04/common/functions.py	1;"	kind:file	line:1
+functions.py	../common/functions.py	1;"	kind:file	line:1
 get_data	../ch03/3.6.2-neuralnet_mnist.py	/^def get_data():$/;"	kind:function	line:10
 get_data	../ch03/3.6.3-01-sample.py	/^def get_data():$/;"	kind:function	line:10
 get_data	../ch03/3.6.3-02-batch.py	/^def get_data():$/;"	kind:function	line:10
 grad	../ch04/4.4-01-numerical-gradient.1.py	/^grad = numerical_gradient(function_2, c.np.array([X, Y]) )$/;"	kind:variable	line:62
+grad	../ch04/4.5.2-01-mini-batch.py	/^    grad = network.numerical_gradient(x_batch, t_batch)$/;"	kind:variable	line:37
+gradient	../ch01/common/__init__.py	/^from . import gradient$/;"	kind:namespace	line:2
+gradient	../ch01/common/multi_layer_net.py	/^    def gradient(self, x, t):$/;"	kind:member	line:128
+gradient	../ch01/common/multi_layer_net_extend.py	/^    def gradient(self, x, t):$/;"	kind:member	line:140
+gradient	../ch04/common/__init__.py	/^from . import gradient$/;"	kind:namespace	line:2
+gradient	../ch04/common/multi_layer_net.py	/^    def gradient(self, x, t):$/;"	kind:member	line:128
+gradient	../ch04/common/multi_layer_net_extend.py	/^    def gradient(self, x, t):$/;"	kind:member	line:140
+gradient	../common/__init__.py	/^from . import gradient$/;"	kind:namespace	line:2
+gradient	../common/multi_layer_net.py	/^    def gradient(self, x, t):$/;"	kind:member	line:128
+gradient	../common/multi_layer_net_extend.py	/^    def gradient(self, x, t):$/;"	kind:member	line:140
+gradient.py	../ch01/common/gradient.py	1;"	kind:file	line:1
+gradient.py	../ch04/common/gradient.py	1;"	kind:file	line:1
+gradient.py	../common/gradient.py	1;"	kind:file	line:1
 gradient_descent	../ch04/4.4.1-01-gradient-descent.py	/^def gradient_descent(f, init_x, lr=0.01, step_num=100):$/;"	kind:function	line:57
+grads	../ch04/4.5.1-01-two-layer-net.py	/^grads = net.numerical_gradient(x, t)$/;"	kind:variable	line:76
+gzip	../ch03/dataset/mnist.py	/^import gzip$/;"	kind:namespace	line:7
+gzip	../ch04/dataset/mnist.py	/^import gzip$/;"	kind:namespace	line:7
+gzip	../dataset/mnist.py	/^import gzip$/;"	kind:namespace	line:7
+identity_function	../ch01/common/functions.py	/^def identity_function(x):$/;"	kind:function	line:5
 identity_function	../ch03/3.4.2-01.py	/^def identity_function(x):$/;"	kind:function	line:28
 identity_function	../ch03/3.4.2-02.py	/^def identity_function(x):$/;"	kind:function	line:4
+identity_function	../ch04/common/functions.py	/^def identity_function(x):$/;"	kind:function	line:5
+identity_function	../common/functions.py	/^def identity_function(x):$/;"	kind:function	line:5
+im2col	../ch01/common/layers.py	/^from common.util import im2col, col2im$/;"	kind:namespace	line:4
+im2col	../ch01/common/util.py	/^def im2col(input_data, filter_h, filter_w, stride=1, pad=0):$/;"	kind:function	line:39
+im2col	../ch04/common/layers.py	/^from common.util import im2col, col2im$/;"	kind:namespace	line:4
+im2col	../ch04/common/util.py	/^def im2col(input_data, filter_h, filter_w, stride=1, pad=0):$/;"	kind:function	line:39
+im2col	../common/layers.py	/^from common.util import im2col, col2im$/;"	kind:namespace	line:4
+im2col	../common/util.py	/^def im2col(input_data, filter_h, filter_w, stride=1, pad=0):$/;"	kind:function	line:39
 image_show_alt	../ch01/lib/common.py	/^def image_show_alt(img):$/;"	kind:function	line:16
 image_show_alt	../ch02/lib/common.py	/^def image_show_alt(img):$/;"	kind:function	line:16
 image_show_alt	../ch03/lib/common.py	/^def image_show_alt(img):$/;"	kind:function	line:16
@@ -171,33 +468,96 @@ image_show_alt	../lib/common.py	/^def image_show_alt(img):$/;"	kind:function	lin
 img	../ch01/1.6.3-lena.py	/^img = imread(current_dir_path + '\/..\/dataset\/lena.png')$/;"	kind:variable	line:5
 img	../ch03/3.6.1-mnist_show.py	/^img = img.reshape(28, 28)$/;"	kind:variable	line:16
 img	../ch03/3.6.1-mnist_show.py	/^img = x_train[0]$/;"	kind:variable	line:10
+img_dim	../ch03/dataset/mnist.py	/^img_dim = (1, 28, 28)$/;"	kind:variable	line:26
+img_dim	../ch04/dataset/mnist.py	/^img_dim = (1, 28, 28)$/;"	kind:variable	line:26
+img_dim	../dataset/mnist.py	/^img_dim = (1, 28, 28)$/;"	kind:variable	line:26
+img_size	../ch03/dataset/mnist.py	/^img_size = 784$/;"	kind:variable	line:27
+img_size	../ch04/dataset/mnist.py	/^img_size = 784$/;"	kind:variable	line:27
+img_size	../dataset/mnist.py	/^img_size = 784$/;"	kind:variable	line:27
 imread	../ch01/1.6.3-lena.py	/^from matplotlib.image import imread$/;"	kind:namespace	line:2
+init_mnist	../ch03/dataset/mnist.py	/^def init_mnist():$/;"	kind:function	line:74
+init_mnist	../ch04/dataset/mnist.py	/^def init_mnist():$/;"	kind:function	line:74
+init_mnist	../dataset/mnist.py	/^def init_mnist():$/;"	kind:function	line:74
 init_network	../ch03/3.4.2-02.py	/^def init_network():$/;"	kind:function	line:7
 init_network	../ch03/3.6.2-neuralnet_mnist.py	/^def init_network():$/;"	kind:function	line:15
 init_network	../ch03/3.6.3-01-sample.py	/^def init_network():$/;"	kind:function	line:15
 init_network	../ch03/3.6.3-02-batch.py	/^def init_network():$/;"	kind:function	line:15
 init_x	../ch04/4.4.1-01-gradient-descent.py	/^init_x = c.np.array([-3.0, 4.0])$/;"	kind:variable	line:69
 init_x	../ch04/4.4.1-01-gradient-descent.py	/^init_x = c.np.array([-3.0, 4.0])$/;"	kind:variable	line:72
+iter_per_epoch	../ch04/4.5.2-01-mini-batch.py	/^iter_per_epoch = max(train_size \/ batch_size, 1)$/;"	kind:variable	line:26
+iters_num	../ch04/4.5.2-01-mini-batch.py	/^iters_num = 10000$/;"	kind:variable	line:17
+key_file	../ch03/dataset/mnist.py	/^key_file = {$/;"	kind:variable	line:14
+key_file	../ch04/dataset/mnist.py	/^key_file = {$/;"	kind:variable	line:14
+key_file	../dataset/mnist.py	/^key_file = {$/;"	kind:variable	line:14
 label	../ch03/3.6.1-mnist_show.py	/^label = t_train[0]$/;"	kind:variable	line:11
+layers	../ch01/common/__init__.py	/^from . import layers$/;"	kind:namespace	line:3
+layers	../ch04/common/__init__.py	/^from . import layers$/;"	kind:namespace	line:3
+layers	../common/__init__.py	/^from . import layers$/;"	kind:namespace	line:3
+layers.py	../ch01/common/layers.py	1;"	kind:file	line:1
+layers.py	../ch04/common/layers.py	1;"	kind:file	line:1
+layers.py	../common/layers.py	1;"	kind:file	line:1
+learning_rate	../ch04/4.5.2-01-mini-batch.py	/^learning_rate = 0.1$/;"	kind:variable	line:20
 load_mnist	../ch03/3.6.1-mnist.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:4
 load_mnist	../ch03/3.6.1-mnist_show.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:4
 load_mnist	../ch03/3.6.2-neuralnet_mnist.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:4
 load_mnist	../ch03/3.6.3-01-sample.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:4
 load_mnist	../ch03/3.6.3-02-batch.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:4
+load_mnist	../ch03/dataset/mnist.py	/^def load_mnist(normalize=True, flatten=True, one_hot_label=False):$/;"	kind:function	line:90
 load_mnist	../ch04/4.2.3-01-mini-batch.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:4
 load_mnist	../ch04/4.3.1-01-numerical-diff.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:4
 load_mnist	../ch04/4.3.3-01-partial-differential.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:6
+load_mnist	../ch04/4.5.2-01-mini-batch.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:8
+load_mnist	../ch04/dataset/mnist.py	/^def load_mnist(normalize=True, flatten=True, one_hot_label=False):$/;"	kind:function	line:90
+load_mnist	../dataset/mnist.py	/^def load_mnist(normalize=True, flatten=True, one_hot_label=False):$/;"	kind:function	line:90
+loss	../ch01/common/multi_layer_net.py	/^    def loss(self, x, t):$/;"	kind:member	line:76
+loss	../ch01/common/multi_layer_net_extend.py	/^    def loss(self, x, t, train_flg=False):$/;"	kind:member	line:92
+loss	../ch01/lib/two_layer_net.py	/^    def loss(self, x, t):$/;"	kind:member	line:39
+loss	../ch02/lib/two_layer_net.py	/^    def loss(self, x, t):$/;"	kind:member	line:39
+loss	../ch03/lib/two_layer_net.py	/^    def loss(self, x, t):$/;"	kind:member	line:39
+loss	../ch04/4.4.2-01-simplenet.py	/^    def loss(self, x, t):$/;"	kind:member	line:20
+loss	../ch04/4.5.1-01-two-layer-net.py	/^    def loss(self, x, t):$/;"	kind:member	line:39
+loss	../ch04/4.5.2-01-mini-batch.py	/^    loss = network.loss(x_batch, t_batch)$/;"	kind:variable	line:44
+loss	../ch04/common/multi_layer_net.py	/^    def loss(self, x, t):$/;"	kind:member	line:76
+loss	../ch04/common/multi_layer_net_extend.py	/^    def loss(self, x, t, train_flg=False):$/;"	kind:member	line:92
+loss	../ch04/lib/two_layer_net.py	/^    def loss(self, x, t):$/;"	kind:member	line:39
+loss	../common/multi_layer_net.py	/^    def loss(self, x, t):$/;"	kind:member	line:76
+loss	../common/multi_layer_net_extend.py	/^    def loss(self, x, t, train_flg=False):$/;"	kind:member	line:92
+loss	../lib/two_layer_net.py	/^    def loss(self, x, t):$/;"	kind:member	line:39
+loss_W	../ch01/lib/two_layer_net.py	/^        def loss_W(W): return self.loss(x, t)$/;"	kind:function	line:53
+loss_W	../ch02/lib/two_layer_net.py	/^        def loss_W(W): return self.loss(x, t)$/;"	kind:function	line:53
+loss_W	../ch03/lib/two_layer_net.py	/^        def loss_W(W): return self.loss(x, t)$/;"	kind:function	line:53
+loss_W	../ch04/4.5.1-01-two-layer-net.py	/^        def loss_W(W): return self.loss(x, t)$/;"	kind:function	line:53
+loss_W	../ch04/lib/two_layer_net.py	/^        def loss_W(W): return self.loss(x, t)$/;"	kind:function	line:53
+loss_W	../lib/two_layer_net.py	/^        def loss_W(W): return self.loss(x, t)$/;"	kind:function	line:53
 lr	../ch04/4.4.1-01-gradient-descent.py	/^lr = 0.1$/;"	kind:variable	line:74
 math	../ch01/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
 math	../ch02/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
 math	../ch03/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
 math	../ch04/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
 math	../lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+mean_squared_error	../ch01/common/functions.py	/^def mean_squared_error(y, t):$/;"	kind:function	line:42
+mean_squared_error	../ch04/common/functions.py	/^def mean_squared_error(y, t):$/;"	kind:function	line:42
+mean_squared_error	../common/functions.py	/^def mean_squared_error(y, t):$/;"	kind:function	line:42
+mnist.py	../ch03/dataset/mnist.py	1;"	kind:file	line:1
+mnist.py	../ch04/dataset/mnist.py	1;"	kind:file	line:1
+mnist.py	../dataset/mnist.py	1;"	kind:file	line:1
 mpl	../ch01/lib/common.py	/^import matplotlib as mpl$/;"	kind:namespace	line:6
 mpl	../ch02/lib/common.py	/^import matplotlib as mpl$/;"	kind:namespace	line:6
 mpl	../ch03/lib/common.py	/^import matplotlib as mpl$/;"	kind:namespace	line:6
 mpl	../ch04/lib/common.py	/^import matplotlib as mpl$/;"	kind:namespace	line:6
 mpl	../lib/common.py	/^import matplotlib as mpl$/;"	kind:namespace	line:6
+multi_layer_net	../ch01/common/__init__.py	/^from . import multi_layer_net$/;"	kind:namespace	line:5
+multi_layer_net	../ch04/common/__init__.py	/^from . import multi_layer_net$/;"	kind:namespace	line:5
+multi_layer_net	../common/__init__.py	/^from . import multi_layer_net$/;"	kind:namespace	line:5
+multi_layer_net.py	../ch01/common/multi_layer_net.py	1;"	kind:file	line:1
+multi_layer_net.py	../ch04/common/multi_layer_net.py	1;"	kind:file	line:1
+multi_layer_net.py	../common/multi_layer_net.py	1;"	kind:file	line:1
+multi_layer_net_extend	../ch01/common/__init__.py	/^from . import multi_layer_net_extend$/;"	kind:namespace	line:4
+multi_layer_net_extend	../ch04/common/__init__.py	/^from . import multi_layer_net_extend$/;"	kind:namespace	line:4
+multi_layer_net_extend	../common/__init__.py	/^from . import multi_layer_net_extend$/;"	kind:namespace	line:4
+multi_layer_net_extend.py	../ch01/common/multi_layer_net_extend.py	1;"	kind:file	line:1
+multi_layer_net_extend.py	../ch04/common/multi_layer_net_extend.py	1;"	kind:file	line:1
+multi_layer_net_extend.py	../common/multi_layer_net_extend.py	1;"	kind:file	line:1
 nand_gate	../ch01/lib/__init__.py	/^from . import nand_gate$/;"	kind:namespace	line:4
 nand_gate	../ch02/2.3.3-nand.py	/^from lib import nand_gate$/;"	kind:namespace	line:1
 nand_gate	../ch02/2.5.2-xor.py	/^from lib import nand_gate$/;"	kind:namespace	line:3
@@ -210,21 +570,88 @@ nand_gate.py	../ch02/lib/nand_gate.py	1;"	kind:file	line:1
 nand_gate.py	../ch03/lib/nand_gate.py	1;"	kind:file	line:1
 nand_gate.py	../ch04/lib/nand_gate.py	1;"	kind:file	line:1
 nand_gate.py	../lib/nand_gate.py	1;"	kind:file	line:1
+net	../ch04/4.4.2-01-simplenet.py	/^net = simpleNet()$/;"	kind:variable	line:30
+net	../ch04/4.5.1-01-two-layer-net.py	/^net = TwoLayerNet(input_size=784, hidden_size=100, output_size=10)$/;"	kind:variable	line:63
 network	../ch03/3.4.2-02.py	/^network = init_network()$/;"	kind:variable	line:33
 network	../ch03/3.6.2-neuralnet_mnist.py	/^network = init_network()$/;"	kind:variable	line:34
 network	../ch03/3.6.3-01-sample.py	/^network = init_network()$/;"	kind:variable	line:21
 network	../ch03/3.6.3-02-batch.py	/^network = init_network()$/;"	kind:variable	line:34
+network	../ch04/4.5.2-01-mini-batch.py	/^network = TwoLayerNet(input_size=784, hidden_size=50, output_size=10)$/;"	kind:variable	line:28
+np	../ch01/common/functions.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../ch01/common/gradient.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../ch01/common/layers.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../ch01/common/multi_layer_net.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../ch01/common/multi_layer_net_extend.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../ch01/common/optimizer.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../ch01/common/trainer.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../ch01/common/util.py	/^import numpy as np$/;"	kind:namespace	line:2
 np	../ch01/lib/common.py	/^import numpy as np$/;"	kind:namespace	line:5
 np	../ch02/lib/common.py	/^import numpy as np$/;"	kind:namespace	line:5
+np	../ch03/dataset/mnist.py	/^import numpy as np$/;"	kind:namespace	line:10
 np	../ch03/lib/common.py	/^import numpy as np$/;"	kind:namespace	line:5
+np	../ch04/common/functions.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../ch04/common/gradient.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../ch04/common/layers.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../ch04/common/multi_layer_net.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../ch04/common/multi_layer_net_extend.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../ch04/common/optimizer.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../ch04/common/trainer.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../ch04/common/util.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../ch04/dataset/mnist.py	/^import numpy as np$/;"	kind:namespace	line:10
 np	../ch04/lib/common.py	/^import numpy as np$/;"	kind:namespace	line:5
+np	../common/functions.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../common/gradient.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../common/layers.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../common/multi_layer_net.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../common/multi_layer_net_extend.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../common/optimizer.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../common/trainer.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../common/util.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../dataset/mnist.py	/^import numpy as np$/;"	kind:namespace	line:10
 np	../lib/common.py	/^import numpy as np$/;"	kind:namespace	line:5
 numerical_diff	../ch04/4.3.1-01-numerical-diff.py	/^def numerical_diff(f, x) :$/;"	kind:function	line:7
 numerical_diff	../ch04/4.3.3-01-partial-differential.py	/^def numerical_diff(f, x) :$/;"	kind:function	line:9
 numerical_diff	../ch04/4.4-01-numerical-gradient.1.py	/^def numerical_diff(f, x) :$/;"	kind:function	line:8
 numerical_diff	../ch04/4.4.1-01-gradient-descent.py	/^def numerical_diff(f, x) :$/;"	kind:function	line:8
+numerical_gradient	../ch01/common/gradient.py	/^def numerical_gradient(f, x):$/;"	kind:function	line:34
+numerical_gradient	../ch01/common/multi_layer_net.py	/^    def numerical_gradient(self, x, t):$/;"	kind:member	line:105
+numerical_gradient	../ch01/common/multi_layer_net.py	/^from common.gradient import numerical_gradient$/;"	kind:namespace	line:7
+numerical_gradient	../ch01/common/multi_layer_net_extend.py	/^    def numerical_gradient(self, X, T):$/;"	kind:member	line:113
+numerical_gradient	../ch01/common/multi_layer_net_extend.py	/^from common.gradient import numerical_gradient$/;"	kind:namespace	line:7
+numerical_gradient	../ch01/lib/two_layer_net.py	/^    def numerical_gradient(self, x, t):$/;"	kind:member	line:52
+numerical_gradient	../ch01/lib/two_layer_net.py	/^from common.gradient import numerical_gradient$/;"	kind:namespace	line:13
+numerical_gradient	../ch02/lib/two_layer_net.py	/^    def numerical_gradient(self, x, t):$/;"	kind:member	line:52
+numerical_gradient	../ch02/lib/two_layer_net.py	/^from common.gradient import numerical_gradient$/;"	kind:namespace	line:13
+numerical_gradient	../ch03/lib/two_layer_net.py	/^    def numerical_gradient(self, x, t):$/;"	kind:member	line:52
+numerical_gradient	../ch03/lib/two_layer_net.py	/^from common.gradient import numerical_gradient$/;"	kind:namespace	line:13
 numerical_gradient	../ch04/4.4-01-numerical-gradient.1.py	/^def numerical_gradient(f, X):$/;"	kind:function	line:46
 numerical_gradient	../ch04/4.4.1-01-gradient-descent.py	/^def numerical_gradient(f, X):$/;"	kind:function	line:46
+numerical_gradient	../ch04/4.4.2-01-simplenet.py	/^from common.gradient import numerical_gradient$/;"	kind:namespace	line:10
+numerical_gradient	../ch04/4.5.1-01-two-layer-net.py	/^    def numerical_gradient(self, x, t):$/;"	kind:member	line:52
+numerical_gradient	../ch04/4.5.1-01-two-layer-net.py	/^from common.gradient import numerical_gradient$/;"	kind:namespace	line:13
+numerical_gradient	../ch04/common/gradient.py	/^def numerical_gradient(f, x):$/;"	kind:function	line:34
+numerical_gradient	../ch04/common/multi_layer_net.py	/^    def numerical_gradient(self, x, t):$/;"	kind:member	line:105
+numerical_gradient	../ch04/common/multi_layer_net.py	/^from common.gradient import numerical_gradient$/;"	kind:namespace	line:7
+numerical_gradient	../ch04/common/multi_layer_net_extend.py	/^    def numerical_gradient(self, X, T):$/;"	kind:member	line:113
+numerical_gradient	../ch04/common/multi_layer_net_extend.py	/^from common.gradient import numerical_gradient$/;"	kind:namespace	line:7
+numerical_gradient	../ch04/lib/two_layer_net.py	/^    def numerical_gradient(self, x, t):$/;"	kind:member	line:52
+numerical_gradient	../ch04/lib/two_layer_net.py	/^from common.gradient import numerical_gradient$/;"	kind:namespace	line:13
+numerical_gradient	../common/gradient.py	/^def numerical_gradient(f, x):$/;"	kind:function	line:34
+numerical_gradient	../common/multi_layer_net.py	/^    def numerical_gradient(self, x, t):$/;"	kind:member	line:105
+numerical_gradient	../common/multi_layer_net.py	/^from common.gradient import numerical_gradient$/;"	kind:namespace	line:7
+numerical_gradient	../common/multi_layer_net_extend.py	/^    def numerical_gradient(self, X, T):$/;"	kind:member	line:113
+numerical_gradient	../common/multi_layer_net_extend.py	/^from common.gradient import numerical_gradient$/;"	kind:namespace	line:7
+numerical_gradient	../lib/two_layer_net.py	/^    def numerical_gradient(self, x, t):$/;"	kind:member	line:52
+numerical_gradient	../lib/two_layer_net.py	/^from common.gradient import numerical_gradient$/;"	kind:namespace	line:13
+numerical_gradient_2d	../ch01/common/gradient.py	/^def numerical_gradient_2d(f, X):$/;"	kind:function	line:22
+numerical_gradient_2d	../ch04/common/gradient.py	/^def numerical_gradient_2d(f, X):$/;"	kind:function	line:22
+numerical_gradient_2d	../common/gradient.py	/^def numerical_gradient_2d(f, X):$/;"	kind:function	line:22
+optimizer	../ch01/common/__init__.py	/^from . import optimizer$/;"	kind:namespace	line:6
+optimizer	../ch04/common/__init__.py	/^from . import optimizer$/;"	kind:namespace	line:6
+optimizer	../common/__init__.py	/^from . import optimizer$/;"	kind:namespace	line:6
+optimizer.py	../ch01/common/optimizer.py	1;"	kind:file	line:1
+optimizer.py	../ch04/common/optimizer.py	1;"	kind:file	line:1
+optimizer.py	../common/optimizer.py	1;"	kind:file	line:1
 or_gate	../ch01/lib/__init__.py	/^from . import or_gate$/;"	kind:namespace	line:3
 or_gate	../ch02/2.3.3-or.py	/^from lib import or_gate$/;"	kind:namespace	line:1
 or_gate	../ch02/2.5.2-xor.py	/^from lib import or_gate$/;"	kind:namespace	line:2
@@ -237,31 +664,67 @@ or_gate.py	../ch02/lib/or_gate.py	1;"	kind:file	line:1
 or_gate.py	../ch03/lib/or_gate.py	1;"	kind:file	line:1
 or_gate.py	../ch04/lib/or_gate.py	1;"	kind:file	line:1
 or_gate.py	../lib/or_gate.py	1;"	kind:file	line:1
+os	../ch01/common/multi_layer_net.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../ch01/common/multi_layer_net_extend.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../ch01/common/trainer.py	/^import sys, os$/;"	kind:namespace	line:2
 os	../ch01/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+os	../ch01/lib/two_layer_net.py	/^import os$/;"	kind:namespace	line:5
 os	../ch02/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+os	../ch02/lib/two_layer_net.py	/^import os$/;"	kind:namespace	line:5
 os	../ch03/3.6.1-mnist.py	/^import sys, os$/;"	kind:namespace	line:1
 os	../ch03/3.6.1-mnist_show.py	/^import sys, os$/;"	kind:namespace	line:1
 os	../ch03/3.6.2-neuralnet_mnist.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
 os	../ch03/3.6.3-01-sample.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
 os	../ch03/3.6.3-02-batch.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
+os	../ch03/dataset/mnist.py	/^import os$/;"	kind:namespace	line:9
+os	../ch03/dataset/mnist.py	/^import os.path$/;"	kind:namespace	line:6
 os	../ch03/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+os	../ch03/lib/two_layer_net.py	/^import os$/;"	kind:namespace	line:5
 os	../ch04/4.2.3-01-mini-batch.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
 os	../ch04/4.3.1-01-numerical-diff.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
 os	../ch04/4.3.3-01-partial-differential.py	/^import sys, os, pickle$/;"	kind:namespace	line:3
 os	../ch04/4.4-01-numerical-gradient.1.py	/^import sys, os, pickle$/;"	kind:namespace	line:3
 os	../ch04/4.4.1-01-gradient-descent.py	/^import sys, os, pickle$/;"	kind:namespace	line:3
+os	../ch04/4.4.2-01-simplenet.py	/^import sys, os, pickle$/;"	kind:namespace	line:4
+os	../ch04/4.5.1-01-two-layer-net.py	/^import os$/;"	kind:namespace	line:5
+os	../ch04/4.5.2-01-mini-batch.py	/^import os$/;"	kind:namespace	line:4
+os	../ch04/common/multi_layer_net.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../ch04/common/multi_layer_net_extend.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../ch04/common/trainer.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../ch04/dataset/mnist.py	/^import os$/;"	kind:namespace	line:9
+os	../ch04/dataset/mnist.py	/^import os.path$/;"	kind:namespace	line:6
 os	../ch04/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+os	../ch04/lib/two_layer_net.py	/^import os$/;"	kind:namespace	line:5
+os	../common/multi_layer_net.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../common/multi_layer_net_extend.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../common/trainer.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../dataset/mnist.py	/^import os$/;"	kind:namespace	line:9
+os	../dataset/mnist.py	/^import os.path$/;"	kind:namespace	line:6
 os	../lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+os	../lib/two_layer_net.py	/^import os$/;"	kind:namespace	line:5
 p	../ch03/3.6.2-neuralnet_mnist.py	/^    p = c.np.argmax(y)$/;"	kind:variable	line:39
 p	../ch03/3.6.3-02-batch.py	/^    p = c.np.argmax(y_batch, axis=1)$/;"	kind:variable	line:42
+path	../ch03/dataset/mnist.py	/^import os.path$/;"	kind:namespace	line:6
+path	../ch04/dataset/mnist.py	/^import os.path$/;"	kind:namespace	line:6
+path	../dataset/mnist.py	/^import os.path$/;"	kind:namespace	line:6
+pickle	../ch01/lib/two_layer_net.py	/^import pickle$/;"	kind:namespace	line:6
+pickle	../ch02/lib/two_layer_net.py	/^import pickle$/;"	kind:namespace	line:6
 pickle	../ch03/3.6.2-neuralnet_mnist.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
 pickle	../ch03/3.6.3-01-sample.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
 pickle	../ch03/3.6.3-02-batch.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
+pickle	../ch03/dataset/mnist.py	/^import pickle$/;"	kind:namespace	line:8
+pickle	../ch03/lib/two_layer_net.py	/^import pickle$/;"	kind:namespace	line:6
 pickle	../ch04/4.2.3-01-mini-batch.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
 pickle	../ch04/4.3.1-01-numerical-diff.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
 pickle	../ch04/4.3.3-01-partial-differential.py	/^import sys, os, pickle$/;"	kind:namespace	line:3
 pickle	../ch04/4.4-01-numerical-gradient.1.py	/^import sys, os, pickle$/;"	kind:namespace	line:3
 pickle	../ch04/4.4.1-01-gradient-descent.py	/^import sys, os, pickle$/;"	kind:namespace	line:3
+pickle	../ch04/4.4.2-01-simplenet.py	/^import sys, os, pickle$/;"	kind:namespace	line:4
+pickle	../ch04/4.5.1-01-two-layer-net.py	/^import pickle$/;"	kind:namespace	line:6
+pickle	../ch04/dataset/mnist.py	/^import pickle$/;"	kind:namespace	line:8
+pickle	../ch04/lib/two_layer_net.py	/^import pickle$/;"	kind:namespace	line:6
+pickle	../dataset/mnist.py	/^import pickle$/;"	kind:namespace	line:8
+pickle	../lib/two_layer_net.py	/^import pickle$/;"	kind:namespace	line:6
 plt	../ch01/lib/common.py	/^from matplotlib import pyplot as plt$/;"	kind:namespace	line:8
 plt	../ch02/lib/common.py	/^from matplotlib import pyplot as plt$/;"	kind:namespace	line:8
 plt	../ch03/lib/common.py	/^from matplotlib import pyplot as plt$/;"	kind:namespace	line:8
@@ -272,69 +735,209 @@ plt_show_alt	../ch02/lib/common.py	/^def plt_show_alt(plt):$/;"	kind:function	li
 plt_show_alt	../ch03/lib/common.py	/^def plt_show_alt(plt):$/;"	kind:function	line:11
 plt_show_alt	../ch04/lib/common.py	/^def plt_show_alt(plt):$/;"	kind:function	line:11
 plt_show_alt	../lib/common.py	/^def plt_show_alt(plt):$/;"	kind:function	line:11
+predict	../ch01/common/multi_layer_net.py	/^    def predict(self, x):$/;"	kind:member	line:70
+predict	../ch01/common/multi_layer_net_extend.py	/^    def predict(self, x, train_flg=False):$/;"	kind:member	line:83
+predict	../ch01/lib/two_layer_net.py	/^    def predict(self, x):$/;"	kind:member	line:28
+predict	../ch02/lib/two_layer_net.py	/^    def predict(self, x):$/;"	kind:member	line:28
 predict	../ch03/3.6.2-neuralnet_mnist.py	/^def predict(network, x):$/;"	kind:function	line:20
 predict	../ch03/3.6.3-02-batch.py	/^def predict(network, x):$/;"	kind:function	line:20
+predict	../ch03/lib/two_layer_net.py	/^    def predict(self, x):$/;"	kind:member	line:28
+predict	../ch04/4.4.2-01-simplenet.py	/^    def predict(self, x):$/;"	kind:member	line:17
+predict	../ch04/4.5.1-01-two-layer-net.py	/^    def predict(self, x):$/;"	kind:member	line:28
+predict	../ch04/common/multi_layer_net.py	/^    def predict(self, x):$/;"	kind:member	line:70
+predict	../ch04/common/multi_layer_net_extend.py	/^    def predict(self, x, train_flg=False):$/;"	kind:member	line:83
+predict	../ch04/lib/two_layer_net.py	/^    def predict(self, x):$/;"	kind:member	line:28
+predict	../common/multi_layer_net.py	/^    def predict(self, x):$/;"	kind:member	line:70
+predict	../common/multi_layer_net_extend.py	/^    def predict(self, x, train_flg=False):$/;"	kind:member	line:83
+predict	../lib/two_layer_net.py	/^    def predict(self, x):$/;"	kind:member	line:28
 random	../ch01/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
 random	../ch02/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
 random	../ch03/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
 random	../ch04/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
 random	../lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+relu	../ch01/common/functions.py	/^def relu(x):$/;"	kind:function	line:21
 relu	../ch03/3.2.7-relu_graph.py	/^def relu(x):$/;"	kind:function	line:3
+relu	../ch04/common/functions.py	/^def relu(x):$/;"	kind:function	line:21
+relu	../common/functions.py	/^def relu(x):$/;"	kind:function	line:21
+relu_grad	../ch01/common/functions.py	/^def relu_grad(x):$/;"	kind:function	line:25
+relu_grad	../ch04/common/functions.py	/^def relu_grad(x):$/;"	kind:function	line:25
+relu_grad	../common/functions.py	/^def relu_grad(x):$/;"	kind:function	line:25
+request	../ch03/dataset/mnist.py	/^    import urllib.request$/;"	kind:namespace	line:3
+request	../ch04/dataset/mnist.py	/^    import urllib.request$/;"	kind:namespace	line:3
+request	../dataset/mnist.py	/^    import urllib.request$/;"	kind:namespace	line:3
+save_file	../ch03/dataset/mnist.py	/^save_file = dataset_dir + "\/mnist.pkl"$/;"	kind:variable	line:22
+save_file	../ch04/dataset/mnist.py	/^save_file = dataset_dir + "\/mnist.pkl"$/;"	kind:variable	line:22
+save_file	../dataset/mnist.py	/^save_file = dataset_dir + "\/mnist.pkl"$/;"	kind:variable	line:22
+shuffle_dataset	../ch01/common/util.py	/^def shuffle_dataset(x, t):$/;"	kind:function	line:17
+shuffle_dataset	../ch04/common/util.py	/^def shuffle_dataset(x, t):$/;"	kind:function	line:17
+shuffle_dataset	../common/util.py	/^def shuffle_dataset(x, t):$/;"	kind:function	line:17
+sig	../ch01/lib/two_layer_net.py	/^from lib import sigmoid as sig$/;"	kind:namespace	line:10
+sig	../ch02/lib/two_layer_net.py	/^from lib import sigmoid as sig$/;"	kind:namespace	line:10
 sig	../ch03/3.4.2-01.py	/^from lib import sigmoid as sig$/;"	kind:namespace	line:2
 sig	../ch03/3.4.2-02.py	/^from lib import sigmoid as sig$/;"	kind:namespace	line:2
 sig	../ch03/3.6.2-neuralnet_mnist.py	/^from lib import sigmoid as sig$/;"	kind:namespace	line:7
 sig	../ch03/3.6.3-01-sample.py	/^from lib import sigmoid as sig$/;"	kind:namespace	line:7
 sig	../ch03/3.6.3-02-batch.py	/^from lib import sigmoid as sig$/;"	kind:namespace	line:7
+sig	../ch03/lib/two_layer_net.py	/^from lib import sigmoid as sig$/;"	kind:namespace	line:10
+sig	../ch04/4.5.1-01-two-layer-net.py	/^from lib import sigmoid as sig$/;"	kind:namespace	line:10
+sig	../ch04/lib/two_layer_net.py	/^from lib import sigmoid as sig$/;"	kind:namespace	line:10
+sig	../lib/two_layer_net.py	/^from lib import sigmoid as sig$/;"	kind:namespace	line:10
+sigmoid	../ch01/common/functions.py	/^def sigmoid(x):$/;"	kind:function	line:13
 sigmoid	../ch01/lib/sigmoid.py	/^def sigmoid(x):$/;"	kind:function	line:3
 sigmoid	../ch02/lib/sigmoid.py	/^def sigmoid(x):$/;"	kind:function	line:3
 sigmoid	../ch03/3.2.4-sigmoid_graph.py	/^def sigmoid(x):$/;"	kind:function	line:3
 sigmoid	../ch03/lib/sigmoid.py	/^def sigmoid(x):$/;"	kind:function	line:3
+sigmoid	../ch04/common/functions.py	/^def sigmoid(x):$/;"	kind:function	line:13
 sigmoid	../ch04/lib/sigmoid.py	/^def sigmoid(x):$/;"	kind:function	line:3
+sigmoid	../common/functions.py	/^def sigmoid(x):$/;"	kind:function	line:13
 sigmoid	../lib/sigmoid.py	/^def sigmoid(x):$/;"	kind:function	line:3
 sigmoid.py	../ch01/lib/sigmoid.py	1;"	kind:file	line:1
 sigmoid.py	../ch02/lib/sigmoid.py	1;"	kind:file	line:1
 sigmoid.py	../ch03/lib/sigmoid.py	1;"	kind:file	line:1
 sigmoid.py	../ch04/lib/sigmoid.py	1;"	kind:file	line:1
 sigmoid.py	../lib/sigmoid.py	1;"	kind:file	line:1
+sigmoid_grad	../ch01/common/functions.py	/^def sigmoid_grad(x):$/;"	kind:function	line:17
+sigmoid_grad	../ch04/common/functions.py	/^def sigmoid_grad(x):$/;"	kind:function	line:17
+sigmoid_grad	../common/functions.py	/^def sigmoid_grad(x):$/;"	kind:function	line:17
+simpleNet	../ch04/4.4.2-01-simplenet.py	/^class simpleNet:$/;"	kind:class	line:13
+smooth_curve	../ch01/common/util.py	/^def smooth_curve(x):$/;"	kind:function	line:5
+smooth_curve	../ch04/common/util.py	/^def smooth_curve(x):$/;"	kind:function	line:5
+smooth_curve	../common/util.py	/^def smooth_curve(x):$/;"	kind:function	line:5
 soft	../ch03/3.5.3-softmax.py	/^from lib import softmax as soft$/;"	kind:namespace	line:2
 soft	../ch03/3.6.2-neuralnet_mnist.py	/^from lib import softmax as soft$/;"	kind:namespace	line:6
 soft	../ch03/3.6.3-01-sample.py	/^from lib import softmax as soft$/;"	kind:namespace	line:6
 soft	../ch03/3.6.3-02-batch.py	/^from lib import softmax as soft$/;"	kind:namespace	line:6
+softmax	../ch01/common/functions.py	/^def softmax(x):$/;"	kind:function	line:31
 softmax	../ch01/lib/softmax.py	/^def softmax(a):$/;"	kind:function	line:3
+softmax	../ch01/lib/two_layer_net.py	/^from common.functions import softmax, cross_entropy_error$/;"	kind:namespace	line:12
 softmax	../ch02/lib/softmax.py	/^def softmax(a):$/;"	kind:function	line:3
+softmax	../ch02/lib/two_layer_net.py	/^from common.functions import softmax, cross_entropy_error$/;"	kind:namespace	line:12
 softmax	../ch03/lib/softmax.py	/^def softmax(a):$/;"	kind:function	line:3
+softmax	../ch03/lib/two_layer_net.py	/^from common.functions import softmax, cross_entropy_error$/;"	kind:namespace	line:12
+softmax	../ch04/4.4.2-01-simplenet.py	/^from common.functions import softmax, cross_entropy_error$/;"	kind:namespace	line:9
+softmax	../ch04/4.5.1-01-two-layer-net.py	/^from common.functions import softmax, cross_entropy_error$/;"	kind:namespace	line:12
+softmax	../ch04/common/functions.py	/^def softmax(x):$/;"	kind:function	line:31
 softmax	../ch04/lib/softmax.py	/^def softmax(a):$/;"	kind:function	line:3
+softmax	../ch04/lib/two_layer_net.py	/^from common.functions import softmax, cross_entropy_error$/;"	kind:namespace	line:12
+softmax	../common/functions.py	/^def softmax(x):$/;"	kind:function	line:31
 softmax	../lib/softmax.py	/^def softmax(a):$/;"	kind:function	line:3
+softmax	../lib/two_layer_net.py	/^from common.functions import softmax, cross_entropy_error$/;"	kind:namespace	line:12
 softmax.py	../ch01/lib/softmax.py	1;"	kind:file	line:1
 softmax.py	../ch02/lib/softmax.py	1;"	kind:file	line:1
 softmax.py	../ch03/lib/softmax.py	1;"	kind:file	line:1
 softmax.py	../ch04/lib/softmax.py	1;"	kind:file	line:1
 softmax.py	../lib/softmax.py	1;"	kind:file	line:1
+softmax_loss	../ch01/common/functions.py	/^def softmax_loss(X, t):$/;"	kind:function	line:59
+softmax_loss	../ch04/common/functions.py	/^def softmax_loss(X, t):$/;"	kind:function	line:59
+softmax_loss	../common/functions.py	/^def softmax_loss(X, t):$/;"	kind:function	line:59
+step_function	../ch01/common/functions.py	/^def step_function(x):$/;"	kind:function	line:9
 step_function	../ch03/3.2.2-step_function.py	/^def step_function(x):$/;"	kind:function	line:3
 step_function	../ch03/3.2.3-step_function_graph.py	/^def step_function(x):$/;"	kind:function	line:3
+step_function	../ch04/common/functions.py	/^def step_function(x):$/;"	kind:function	line:9
+step_function	../common/functions.py	/^def step_function(x):$/;"	kind:function	line:9
 step_num	../ch04/4.4.1-01-gradient-descent.py	/^step_num = 20$/;"	kind:variable	line:75
+sys	../ch01/common/multi_layer_net.py	/^import sys, os$/;"	kind:namespace	line:2
+sys	../ch01/common/multi_layer_net_extend.py	/^import sys, os$/;"	kind:namespace	line:2
+sys	../ch01/common/trainer.py	/^import sys, os$/;"	kind:namespace	line:2
 sys	../ch01/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+sys	../ch01/lib/two_layer_net.py	/^import sys$/;"	kind:namespace	line:4
 sys	../ch02/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+sys	../ch02/lib/two_layer_net.py	/^import sys$/;"	kind:namespace	line:4
 sys	../ch03/3.6.1-mnist.py	/^import sys, os$/;"	kind:namespace	line:1
 sys	../ch03/3.6.1-mnist_show.py	/^import sys, os$/;"	kind:namespace	line:1
 sys	../ch03/3.6.2-neuralnet_mnist.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
 sys	../ch03/3.6.3-01-sample.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
 sys	../ch03/3.6.3-02-batch.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
 sys	../ch03/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+sys	../ch03/lib/two_layer_net.py	/^import sys$/;"	kind:namespace	line:4
 sys	../ch04/4.2.3-01-mini-batch.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
 sys	../ch04/4.3.1-01-numerical-diff.py	/^import sys, os, pickle$/;"	kind:namespace	line:1
 sys	../ch04/4.3.3-01-partial-differential.py	/^import sys, os, pickle$/;"	kind:namespace	line:3
 sys	../ch04/4.4-01-numerical-gradient.1.py	/^import sys, os, pickle$/;"	kind:namespace	line:3
 sys	../ch04/4.4.1-01-gradient-descent.py	/^import sys, os, pickle$/;"	kind:namespace	line:3
+sys	../ch04/4.4.2-01-simplenet.py	/^import sys, os, pickle$/;"	kind:namespace	line:4
+sys	../ch04/4.5.1-01-two-layer-net.py	/^import sys$/;"	kind:namespace	line:4
+sys	../ch04/4.5.2-01-mini-batch.py	/^import sys$/;"	kind:namespace	line:3
+sys	../ch04/common/multi_layer_net.py	/^import sys, os$/;"	kind:namespace	line:2
+sys	../ch04/common/multi_layer_net_extend.py	/^import sys, os$/;"	kind:namespace	line:2
+sys	../ch04/common/trainer.py	/^import sys, os$/;"	kind:namespace	line:2
 sys	../ch04/lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+sys	../ch04/lib/two_layer_net.py	/^import sys$/;"	kind:namespace	line:4
+sys	../common/multi_layer_net.py	/^import sys, os$/;"	kind:namespace	line:2
+sys	../common/multi_layer_net_extend.py	/^import sys, os$/;"	kind:namespace	line:2
+sys	../common/trainer.py	/^import sys, os$/;"	kind:namespace	line:2
 sys	../lib/common.py	/^import random, math, sys, os$/;"	kind:namespace	line:3
+sys	../lib/two_layer_net.py	/^import sys$/;"	kind:namespace	line:4
+t	../ch04/4.4.2-01-simplenet.py	/^t = c.np.array([0, 0, 1])$/;"	kind:variable	line:28
+t	../ch04/4.5.1-01-two-layer-net.py	/^t = c.np.random.rand(100, 10)$/;"	kind:variable	line:71
 t_batch	../ch04/4.2.3-01-mini-batch.py	/^t_batch = t_train[batch_mask]$/;"	kind:variable	line:15
+t_batch	../ch04/4.5.2-01-mini-batch.py	/^    t_batch = t_train[batch_mask]$/;"	kind:variable	line:34
 tangent_line	../ch04/4.3.1-01-numerical-diff.py	/^def tangent_line(f, x):$/;"	kind:function	line:14
 tangent_line	../ch04/4.3.3-01-partial-differential.py	/^def tangent_line(f, x):$/;"	kind:function	line:16
 tangent_line	../ch04/4.4-01-numerical-gradient.1.py	/^def tangent_line(f, x):$/;"	kind:function	line:21
 tangent_line	../ch04/4.4.1-01-gradient-descent.py	/^def tangent_line(f, x):$/;"	kind:function	line:21
+test_acc	../ch04/4.5.2-01-mini-batch.py	/^        test_acc = network.accuracy(x_test, t_test)$/;"	kind:variable	line:49
+test_acc_list	../ch04/4.5.2-01-mini-batch.py	/^test_acc_list = []$/;"	kind:variable	line:24
+test_num	../ch03/dataset/mnist.py	/^test_num = 10000$/;"	kind:variable	line:25
+test_num	../ch04/dataset/mnist.py	/^test_num = 10000$/;"	kind:variable	line:25
+test_num	../dataset/mnist.py	/^test_num = 10000$/;"	kind:variable	line:25
 tf	../ch04/4.3.1-01-numerical-diff.py	/^tf = tangent_line(function_1, x_point)$/;"	kind:variable	line:31
+train	../ch01/common/trainer.py	/^    def train(self):$/;"	kind:member	line:69
+train	../ch04/common/trainer.py	/^    def train(self):$/;"	kind:member	line:69
+train	../common/trainer.py	/^    def train(self):$/;"	kind:member	line:69
+train_acc	../ch04/4.5.2-01-mini-batch.py	/^        train_acc = network.accuracy(x_train, t_train)$/;"	kind:variable	line:48
+train_acc_list	../ch04/4.5.2-01-mini-batch.py	/^train_acc_list = []$/;"	kind:variable	line:23
+train_loss_list	../ch04/4.5.2-01-mini-batch.py	/^train_loss_list = []$/;"	kind:variable	line:14
+train_loss_list	../ch04/4.5.2-01-mini-batch.py	/^train_loss_list = []$/;"	kind:variable	line:22
+train_num	../ch03/dataset/mnist.py	/^train_num = 60000$/;"	kind:variable	line:24
+train_num	../ch04/dataset/mnist.py	/^train_num = 60000$/;"	kind:variable	line:24
+train_num	../dataset/mnist.py	/^train_num = 60000$/;"	kind:variable	line:24
 train_size	../ch04/4.2.3-01-mini-batch.py	/^train_size = x_train.shape[0]$/;"	kind:variable	line:11
+train_size	../ch04/4.5.2-01-mini-batch.py	/^train_size = x_train.shape[0]$/;"	kind:variable	line:18
+train_step	../ch01/common/trainer.py	/^    def train_step(self):$/;"	kind:member	line:39
+train_step	../ch04/common/trainer.py	/^    def train_step(self):$/;"	kind:member	line:39
+train_step	../common/trainer.py	/^    def train_step(self):$/;"	kind:member	line:39
+trainer	../ch01/common/__init__.py	/^from . import trainer$/;"	kind:namespace	line:7
+trainer	../ch04/common/__init__.py	/^from . import trainer$/;"	kind:namespace	line:7
+trainer	../common/__init__.py	/^from . import trainer$/;"	kind:namespace	line:7
+trainer.py	../ch01/common/trainer.py	1;"	kind:file	line:1
+trainer.py	../ch04/common/trainer.py	1;"	kind:file	line:1
+trainer.py	../common/trainer.py	1;"	kind:file	line:1
+two_layer_net.py	../ch01/lib/two_layer_net.py	1;"	kind:file	line:1
+two_layer_net.py	../ch02/lib/two_layer_net.py	1;"	kind:file	line:1
+two_layer_net.py	../ch03/lib/two_layer_net.py	1;"	kind:file	line:1
+two_layer_net.py	../ch04/lib/two_layer_net.py	1;"	kind:file	line:1
+two_layer_net.py	../lib/two_layer_net.py	1;"	kind:file	line:1
+update	../ch01/common/optimizer.py	/^    def update(self, params, grads):$/;"	kind:member	line:11
+update	../ch01/common/optimizer.py	/^    def update(self, params, grads):$/;"	kind:member	line:110
+update	../ch01/common/optimizer.py	/^    def update(self, params, grads):$/;"	kind:member	line:25
+update	../ch01/common/optimizer.py	/^    def update(self, params, grads):$/;"	kind:member	line:45
+update	../ch01/common/optimizer.py	/^    def update(self, params, grads):$/;"	kind:member	line:66
+update	../ch01/common/optimizer.py	/^    def update(self, params, grads):$/;"	kind:member	line:86
+update	../ch04/common/optimizer.py	/^    def update(self, params, grads):$/;"	kind:member	line:11
+update	../ch04/common/optimizer.py	/^    def update(self, params, grads):$/;"	kind:member	line:110
+update	../ch04/common/optimizer.py	/^    def update(self, params, grads):$/;"	kind:member	line:25
+update	../ch04/common/optimizer.py	/^    def update(self, params, grads):$/;"	kind:member	line:45
+update	../ch04/common/optimizer.py	/^    def update(self, params, grads):$/;"	kind:member	line:66
+update	../ch04/common/optimizer.py	/^    def update(self, params, grads):$/;"	kind:member	line:86
+update	../common/optimizer.py	/^    def update(self, params, grads):$/;"	kind:member	line:11
+update	../common/optimizer.py	/^    def update(self, params, grads):$/;"	kind:member	line:110
+update	../common/optimizer.py	/^    def update(self, params, grads):$/;"	kind:member	line:25
+update	../common/optimizer.py	/^    def update(self, params, grads):$/;"	kind:member	line:45
+update	../common/optimizer.py	/^    def update(self, params, grads):$/;"	kind:member	line:66
+update	../common/optimizer.py	/^    def update(self, params, grads):$/;"	kind:member	line:86
+url_base	../ch03/dataset/mnist.py	/^url_base = 'http:\/\/yann.lecun.com\/exdb\/mnist\/'$/;"	kind:variable	line:13
+url_base	../ch04/dataset/mnist.py	/^url_base = 'http:\/\/yann.lecun.com\/exdb\/mnist\/'$/;"	kind:variable	line:13
+url_base	../dataset/mnist.py	/^url_base = 'http:\/\/yann.lecun.com\/exdb\/mnist\/'$/;"	kind:variable	line:13
+urllib	../ch03/dataset/mnist.py	/^    import urllib.request$/;"	kind:namespace	line:3
+urllib	../ch04/dataset/mnist.py	/^    import urllib.request$/;"	kind:namespace	line:3
+urllib	../dataset/mnist.py	/^    import urllib.request$/;"	kind:namespace	line:3
+util	../ch01/common/__init__.py	/^from . import util$/;"	kind:namespace	line:8
+util	../ch04/common/__init__.py	/^from . import util$/;"	kind:namespace	line:8
+util	../common/__init__.py	/^from . import util$/;"	kind:namespace	line:8
+util.py	../ch01/common/util.py	1;"	kind:file	line:1
+util.py	../ch04/common/util.py	1;"	kind:file	line:1
+util.py	../common/util.py	1;"	kind:file	line:1
 x	../ch01/1.6.2-sin.py	/^x = c.np.arange(0, 6, 0.1)$/;"	kind:variable	line:3
 x	../ch03/3.2.3-step_function_graph.py	/^x = c.np.arange(-5.0, 5.0, 0.1)$/;"	kind:variable	line:6
 x	../ch03/3.2.4-sigmoid_graph.py	/^x = c.np.arange(-5.0, 5.0, 0.1)$/;"	kind:variable	line:6
@@ -342,10 +945,13 @@ x	../ch03/3.2.7-relu_graph.py	/^x = c.np.arange(-5.0, 5.0, 0.1)$/;"	kind:variabl
 x	../ch03/3.4.2-02.py	/^x = c.np.array([1.0, 0.5])$/;"	kind:variable	line:34
 x	../ch04/4.3.1-01-numerical-diff.py	/^x = c.np.arange(0.0, 20.0, 0.1)$/;"	kind:variable	line:20
 x	../ch04/4.3.3-01-partial-differential.py	/^x = c.np.arange(-3.0, 3.0, 0.1)$/;"	kind:variable	line:22
+x	../ch04/4.4.2-01-simplenet.py	/^x = c.np.array([0.6, 0.9])$/;"	kind:variable	line:27
+x	../ch04/4.5.1-01-two-layer-net.py	/^x = c.np.random.rand(100, 784)$/;"	kind:variable	line:70
 x0	../ch04/4.4-01-numerical-gradient.1.py	/^x0 = c.np.arange(-2, 2.5, 0.25)$/;"	kind:variable	line:57
 x1	../ch04/4.4-01-numerical-gradient.1.py	/^x1 = c.np.arange(-2, 2.5, 0.25)$/;"	kind:variable	line:58
 x_batch	../ch03/3.6.3-02-batch.py	/^    x_batch = x[i:i+batch_size]$/;"	kind:variable	line:40
 x_batch	../ch04/4.2.3-01-mini-batch.py	/^x_batch = x_train[batch_mask]$/;"	kind:variable	line:14
+x_batch	../ch04/4.5.2-01-mini-batch.py	/^    x_batch = x_train[batch_mask]$/;"	kind:variable	line:33
 x_point	../ch04/4.3.1-01-numerical-diff.py	/^x_point = 15$/;"	kind:variable	line:28
 y	../ch01/1.6.2-sin.py	/^y = c.np.sin(x)$/;"	kind:variable	line:4
 y	../ch03/3.2.3-step_function_graph.py	/^y = step_function(x)$/;"	kind:variable	line:7
@@ -356,5 +962,6 @@ y	../ch03/3.5.3-softmax.py	/^y = soft.softmax(a)$/;"	kind:variable	line:5
 y	../ch03/3.6.2-neuralnet_mnist.py	/^    y = predict(network, x[i])$/;"	kind:variable	line:38
 y	../ch04/4.3.1-01-numerical-diff.py	/^y = function_1(x)$/;"	kind:variable	line:21
 y	../ch04/4.3.3-01-partial-differential.py	/^y = c.np.arange(-3.0, 3.0, 0.1)$/;"	kind:variable	line:23
+y	../ch04/4.5.1-01-two-layer-net.py	/^y = net.predict(x)$/;"	kind:variable	line:72
 y2	../ch04/4.3.1-01-numerical-diff.py	/^y2 = tf(x)$/;"	kind:variable	line:32
 y_batch	../ch03/3.6.3-02-batch.py	/^    y_batch = predict(network, x_batch)$/;"	kind:variable	line:41
